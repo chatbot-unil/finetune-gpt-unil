@@ -1,0 +1,178 @@
+[
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2011 pour la filière Lettres ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 1538 femmes, 779 hommes et 2317 étudiants au total en 2011 pour la filière Lettres."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2012 pour la filière Lettres ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 1512 femmes, 779 hommes et 2291 étudiants au total en 2012 pour la filière Lettres."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2013 pour la filière Lettres ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 1476 femmes, 796 hommes et 2272 étudiants au total en 2013 pour la filière Lettres."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2014 pour la filière Lettres ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 1442 femmes, 785 hommes et 2227 étudiants au total en 2014 pour la filière Lettres."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2015 pour la filière Lettres ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 1429 femmes, 804 hommes et 2233 étudiants au total en 2015 pour la filière Lettres."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2016 pour la filière Lettres ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 1363 femmes, 831 hommes et 2194 étudiants au total en 2016 pour la filière Lettres."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2017 pour la filière Lettres ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 1402 femmes, 827 hommes et 2229 étudiants au total en 2017 pour la filière Lettres."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2018 pour la filière Lettres ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 1426 femmes, 809 hommes et 2235 étudiants au total en 2018 pour la filière Lettres."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2019 pour la filière Lettres ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 1422 femmes, 833 hommes et 2255 étudiants au total en 2019 pour la filière Lettres."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2020 pour la filière Lettres ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 1462 femmes, 812 hommes et 2274 étudiants au total en 2020 pour la filière Lettres."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2021 pour la filière Lettres ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 1396 femmes, 804 hommes et 2200 étudiants au total en 2021 pour la filière Lettres."
+            }
+        ]
+    }
+]

@@ -1,0 +1,146 @@
+[
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2013.0 pour la filière FCUE ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 51.0 femmes, 60.0 hommes et 111.0 étudiants au total en 2013.0 pour la filière FCUE."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2014.0 pour la filière FCUE ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 137.0 femmes, 175.0 hommes et 312.0 étudiants au total en 2014.0 pour la filière FCUE."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2015.0 pour la filière FCUE ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 117.0 femmes, 179.0 hommes et 296.0 étudiants au total en 2015.0 pour la filière FCUE."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2016.0 pour la filière FCUE ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 110.0 femmes, 175.0 hommes et 285.0 étudiants au total en 2016.0 pour la filière FCUE."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2017.0 pour la filière FCUE ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 125.0 femmes, 169.0 hommes et 294.0 étudiants au total en 2017.0 pour la filière FCUE."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2018.0 pour la filière FCUE ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 179.0 femmes, 143.0 hommes et 322.0 étudiants au total en 2018.0 pour la filière FCUE."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2019.0 pour la filière FCUE ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 302.0 femmes, 156.0 hommes et 458.0 étudiants au total en 2019.0 pour la filière FCUE."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2020.0 pour la filière FCUE ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 362.0 femmes, 162.0 hommes et 524.0 étudiants au total en 2020.0 pour la filière FCUE."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2021.0 pour la filière FCUE ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 377.0 femmes, 158.0 hommes et 535.0 étudiants au total en 2021.0 pour la filière FCUE."
+            }
+        ]
+    }
+]

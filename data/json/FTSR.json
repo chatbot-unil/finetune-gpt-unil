@@ -1,0 +1,178 @@
+[
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2011 pour la filière FTSR ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 34 femmes, 45 hommes et 79 étudiants au total en 2011 pour la filière FTSR."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2012 pour la filière FTSR ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 39 femmes, 39 hommes et 78 étudiants au total en 2012 pour la filière FTSR."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2013 pour la filière FTSR ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 52 femmes, 37 hommes et 89 étudiants au total en 2013 pour la filière FTSR."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2014 pour la filière FTSR ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 57 femmes, 44 hommes et 101 étudiants au total en 2014 pour la filière FTSR."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2015 pour la filière FTSR ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 66 femmes, 55 hommes et 121 étudiants au total en 2015 pour la filière FTSR."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2016 pour la filière FTSR ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 66 femmes, 53 hommes et 119 étudiants au total en 2016 pour la filière FTSR."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2017 pour la filière FTSR ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 67 femmes, 53 hommes et 120 étudiants au total en 2017 pour la filière FTSR."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2018 pour la filière FTSR ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 58 femmes, 45 hommes et 103 étudiants au total en 2018 pour la filière FTSR."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2019 pour la filière FTSR ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 57 femmes, 50 hommes et 107 étudiants au total en 2019 pour la filière FTSR."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2020 pour la filière FTSR ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 52 femmes, 46 hommes et 98 étudiants au total en 2020 pour la filière FTSR."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2021 pour la filière FTSR ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 48 femmes, 41 hommes et 89 étudiants au total en 2021 pour la filière FTSR."
+            }
+        ]
+    }
+]

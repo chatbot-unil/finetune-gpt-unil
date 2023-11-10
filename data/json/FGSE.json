@@ -1,0 +1,178 @@
+[
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2011 pour la filière FGSE ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 301 femmes, 433 hommes et 734 étudiants au total en 2011 pour la filière FGSE."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2012 pour la filière FGSE ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 331 femmes, 461 hommes et 792 étudiants au total en 2012 pour la filière FGSE."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2013 pour la filière FGSE ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 345 femmes, 468 hommes et 813 étudiants au total en 2013 pour la filière FGSE."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2014 pour la filière FGSE ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 382 femmes, 476 hommes et 858 étudiants au total en 2014 pour la filière FGSE."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2015 pour la filière FGSE ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 366 femmes, 486 hommes et 852 étudiants au total en 2015 pour la filière FGSE."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2016 pour la filière FGSE ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 346 femmes, 471 hommes et 817 étudiants au total en 2016 pour la filière FGSE."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2017 pour la filière FGSE ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 367 femmes, 512 hommes et 879 étudiants au total en 2017 pour la filière FGSE."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2018 pour la filière FGSE ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 382 femmes, 510 hommes et 892 étudiants au total en 2018 pour la filière FGSE."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2019 pour la filière FGSE ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 413 femmes, 499 hommes et 912 étudiants au total en 2019 pour la filière FGSE."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2020 pour la filière FGSE ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 445 femmes, 502 hommes et 947 étudiants au total en 2020 pour la filière FGSE."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2021 pour la filière FGSE ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 421 femmes, 494 hommes et 915 étudiants au total en 2021 pour la filière FGSE."
+            }
+        ]
+    }
+]

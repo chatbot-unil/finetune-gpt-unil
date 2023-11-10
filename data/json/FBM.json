@@ -1,0 +1,178 @@
+[
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2011 pour la filière FBM ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 1519 femmes, 1085 hommes et 2604 étudiants au total en 2011 pour la filière FBM."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2012 pour la filière FBM ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 1555 femmes, 1170 hommes et 2725 étudiants au total en 2012 pour la filière FBM."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2013 pour la filière FBM ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 1645 femmes, 1209 hommes et 2854 étudiants au total en 2013 pour la filière FBM."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2014 pour la filière FBM ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 1699 femmes, 1270 hommes et 2969 étudiants au total en 2014 pour la filière FBM."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2015 pour la filière FBM ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 1735 femmes, 1288 hommes et 3023 étudiants au total en 2015 pour la filière FBM."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2016 pour la filière FBM ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 1911 femmes, 1309 hommes et 3220 étudiants au total en 2016 pour la filière FBM."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2017 pour la filière FBM ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 1993 femmes, 1375 hommes et 3368 étudiants au total en 2017 pour la filière FBM."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2018 pour la filière FBM ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 2112 femmes, 1369 hommes et 3481 étudiants au total en 2018 pour la filière FBM."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2019 pour la filière FBM ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 2250 femmes, 1438 hommes et 3688 étudiants au total en 2019 pour la filière FBM."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2020 pour la filière FBM ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 2477 femmes, 1506 hommes et 3983 étudiants au total en 2020 pour la filière FBM."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2021 pour la filière FBM ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 2578 femmes, 1530 hommes et 4108 étudiants au total en 2021 pour la filière FBM."
+            }
+        ]
+    }
+]
