@@ -111,3 +111,5 @@ Les résultats ne sont pas bon du tout, le modèle ne comprend les questions et 
 ![images/first_test.png](images/first_test.png)
 
 ### 2. Questions avec un seul nombre
+
+Pour la deuxième étape j'ai décider de faire des questions avec un seul nombre, comme ceci :

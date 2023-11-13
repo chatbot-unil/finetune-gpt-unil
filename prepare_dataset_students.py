@@ -2,6 +2,7 @@ import pandas as pd
 import json
 import os
 import sys
+import random
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -77,7 +78,6 @@ def create_sentences_from_data(data, filiere):
 
     return sentences
 
-
 def get_filiere(path):
     """Retourne le nom de la filière depuis le chemin du fichier CSV"""
     filename_with_extension = path.split('/')[-1]
@@ -106,6 +106,30 @@ def save_json(data, filiere):
     with open(path, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=4, ensure_ascii=False)
 
+def merge_json_files(path_training_data, path_validating_data, jsonpath='data/json'):
+    json_files = os.listdir(jsonpath)
+    training_data = []
+    validating_data = []
+    for json_file in json_files:
+        with open(f'{jsonpath}/{json_file}', 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            training_data.extend(data)
+
+    validating_data = training_data[:int(len(training_data) * 0.2)]
+
+    random.shuffle(training_data)
+    random.shuffle(validating_data)
+
+    with open(path_training_data, 'w', encoding='utf-8') as f:
+        for example in training_data:
+            json.dump(example, f, ensure_ascii=False)
+            f.write('\n')
+
+    with open(path_validating_data, 'w', encoding='utf-8') as f:
+        for example in validating_data:
+            json.dump(example, f, ensure_ascii=False)
+            f.write('\n')
+
 def process_csv_file(csv_path, system_message, repeat_times=1):
     filiere = get_filiere(csv_path)
     data = load_data(csv_path)
@@ -115,7 +139,6 @@ def process_csv_file(csv_path, system_message, repeat_times=1):
         save_json(training_data, filiere)
 
 if __name__ == '__main__':
-    # optional argument: repeat_times
     if len(sys.argv) == 2:
         repeat_times = 1
     elif len(sys.argv) == 3:
@@ -130,6 +153,7 @@ if __name__ == '__main__':
     if os.path.isfile(path) and path.endswith(".csv"):
         # If the path is a CSV file, process it
         process_csv_file(path, system_message)
+        merge_json_files('data/training_data.jsonl', 'data/validating_data.jsonl')
     elif os.path.isdir(path):
         # If the path is a directory, process all CSV files in it
         found_csv = False
@@ -138,6 +162,7 @@ if __name__ == '__main__':
                 found_csv = True
                 csv_path = os.path.join(path, filename)
                 process_csv_file(csv_path, system_message, repeat_times=repeat_times)
+                merge_json_files('data/training_data.jsonl', 'data/validating_data.jsonl')
         if not found_csv:
             print("No CSV files found in the directory.")
             sys.exit(1)

@@ -3,41 +3,20 @@ import json
 import random
 import sys
 import time
+import argparse
 from dotenv import load_dotenv
 from openai import OpenAI
+
+
+parser = argparse.ArgumentParser(description="Fine-tune OpenAI model.")
+parser.add_argument('--epochs', type=int, default=10, help='Number of training epochs')
+parser.add_argument('--training_data_path', type=str, default='data/training_data.jsonl', help='Path to training data')
+parser.add_argument('--validating_data_path', type=str, default='data/validating_data.jsonl', help='Path to validating data')
+args = parser.parse_args()
 
 load_dotenv()
 
 os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
-
-# Load and merge all the JSON files
-json_files = os.listdir('data/json')
-training_data = []
-validating_data = []
-for json_file in json_files:
-	with open(f'data/json/{json_file}', 'r', encoding='utf-8') as f:
-		data = json.load(f)
-		training_data.extend(data)
-
-# validation_data is 20% of the training data
-validating_data = training_data[:int(len(training_data) * 0.2)]
-
-random.shuffle(training_data)
-random.shuffle(validating_data)
-
-# Save the data to a jsonl file
-with open('data/training_data.jsonl', 'w', encoding='utf-8') as f:
-	for example in training_data:
-		json.dump(example, f, ensure_ascii=False)
-		f.write('\n')
-
-with open('data/validating_data.jsonl', 'w', encoding='utf-8') as f:
-	for example in validating_data:
-		json.dump(example, f, ensure_ascii=False)
-		f.write('\n')
-
-print(f"Training on {len(training_data)} examples")
-print(f"Validating on {len(validating_data)} examples")
 
 # Load the model
 client = OpenAI()
