@@ -7,11 +7,59 @@
             },
             {
                 "role": "user",
+                "content": "Combien y a-t-il d'étudiantes en 2011 pour la filière HEC ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 828 d'étudiantes pour la filière HEC en 2011."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
                 "content": "Combien y a-t-il d'étudiants en 2011 pour la filière HEC ?"
             },
             {
                 "role": "assistant",
-                "content": "Il y a 828 femmes, 1493 hommes et 2321 étudiants au total en 2011 pour la filière HEC."
+                "content": "Il y a 1493 étudiants pour la filière HEC en 2011."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants au total en 2011 pour la filière HEC ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 2321 étudiants au total pour la filière HEC en 2011."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiantes en 2012 pour la filière HEC ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 914 d'étudiantes pour la filière HEC en 2012."
             }
         ]
     },
@@ -27,7 +75,39 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a 914 femmes, 1673 hommes et 2587 étudiants au total en 2012 pour la filière HEC."
+                "content": "Il y a 1673 étudiants pour la filière HEC en 2012."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants au total en 2012 pour la filière HEC ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 2587 étudiants au total pour la filière HEC en 2012."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiantes en 2013 pour la filière HEC ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 997 d'étudiantes pour la filière HEC en 2013."
             }
         ]
     },
@@ -43,7 +123,39 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a 997 femmes, 1741 hommes et 2738 étudiants au total en 2013 pour la filière HEC."
+                "content": "Il y a 1741 étudiants pour la filière HEC en 2013."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants au total en 2013 pour la filière HEC ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 2738 étudiants au total pour la filière HEC en 2013."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiantes en 2014 pour la filière HEC ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 1111 d'étudiantes pour la filière HEC en 2014."
             }
         ]
     },
@@ -59,7 +171,39 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a 1111 femmes, 1800 hommes et 2911 étudiants au total en 2014 pour la filière HEC."
+                "content": "Il y a 1800 étudiants pour la filière HEC en 2014."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants au total en 2014 pour la filière HEC ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 2911 étudiants au total pour la filière HEC en 2014."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiantes en 2015 pour la filière HEC ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 1074 d'étudiantes pour la filière HEC en 2015."
             }
         ]
     },
@@ -75,7 +219,39 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a 1074 femmes, 1799 hommes et 2873 étudiants au total en 2015 pour la filière HEC."
+                "content": "Il y a 1799 étudiants pour la filière HEC en 2015."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants au total en 2015 pour la filière HEC ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 2873 étudiants au total pour la filière HEC en 2015."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiantes en 2016 pour la filière HEC ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 1032 d'étudiantes pour la filière HEC en 2016."
             }
         ]
     },
@@ -91,7 +267,39 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a 1032 femmes, 1867 hommes et 2899 étudiants au total en 2016 pour la filière HEC."
+                "content": "Il y a 1867 étudiants pour la filière HEC en 2016."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants au total en 2016 pour la filière HEC ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 2899 étudiants au total pour la filière HEC en 2016."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiantes en 2017 pour la filière HEC ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 1057 d'étudiantes pour la filière HEC en 2017."
             }
         ]
     },
@@ -107,7 +315,39 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a 1057 femmes, 1950 hommes et 3007 étudiants au total en 2017 pour la filière HEC."
+                "content": "Il y a 1950 étudiants pour la filière HEC en 2017."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants au total en 2017 pour la filière HEC ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 3007 étudiants au total pour la filière HEC en 2017."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiantes en 2018 pour la filière HEC ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 1077 d'étudiantes pour la filière HEC en 2018."
             }
         ]
     },
@@ -123,7 +363,39 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a 1077 femmes, 2010 hommes et 3087 étudiants au total en 2018 pour la filière HEC."
+                "content": "Il y a 2010 étudiants pour la filière HEC en 2018."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants au total en 2018 pour la filière HEC ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 3087 étudiants au total pour la filière HEC en 2018."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiantes en 2019 pour la filière HEC ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 1082 d'étudiantes pour la filière HEC en 2019."
             }
         ]
     },
@@ -139,7 +411,39 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a 1082 femmes, 2022 hommes et 3104 étudiants au total en 2019 pour la filière HEC."
+                "content": "Il y a 2022 étudiants pour la filière HEC en 2019."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants au total en 2019 pour la filière HEC ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 3104 étudiants au total pour la filière HEC en 2019."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiantes en 2020 pour la filière HEC ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 1201 d'étudiantes pour la filière HEC en 2020."
             }
         ]
     },
@@ -155,7 +459,39 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a 1201 femmes, 2105 hommes et 3306 étudiants au total en 2020 pour la filière HEC."
+                "content": "Il y a 2105 étudiants pour la filière HEC en 2020."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants au total en 2020 pour la filière HEC ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 3306 étudiants au total pour la filière HEC en 2020."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiantes en 2021 pour la filière HEC ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 1209 d'étudiantes pour la filière HEC en 2021."
             }
         ]
     },
@@ -171,7 +507,23 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a 1209 femmes, 2094 hommes et 3303 étudiants au total en 2021 pour la filière HEC."
+                "content": "Il y a 2094 étudiants pour la filière HEC en 2021."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants au total en 2021 pour la filière HEC ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 3303 étudiants au total pour la filière HEC en 2021."
             }
         ]
     }

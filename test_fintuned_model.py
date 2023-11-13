@@ -17,9 +17,10 @@ def completions(message):
 		messages=[
 			{"role": "system", "content": system_message},
 			{"role": "user", "content": message},
-		]
+		],
+		temperature=0.1,
 	)
-	return response
+	return response.choices[0].message.content
 
 if __name__ == '__main__':
 	if len(sys.argv) < 2:

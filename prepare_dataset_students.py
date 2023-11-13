@@ -12,6 +12,34 @@ answers_format_filiere = "Il y a {} femmes, {} hommes et {} étudiants au total 
 questions_format = "Combien y a-t-il d'étudiants en {} ?"
 answers_format = "Il y a {} femmes, {} hommes et {} étudiants au total en {} à l'UNIL."
 
+questions_format_filiere = [
+	"Combien y a-t-il d'étudiants en {} pour la filière {} ?",
+]
+
+answers_format_filiere = [
+	"Il y a {} femmes, {} hommes et {} étudiants au total en {} pour la filière {}.",
+]
+
+questions_format = [
+	"Combien y a-t-il d'étudiants en {} ?",
+]
+
+answers_format = [
+	"Il y a {} femmes, {} hommes et {} étudiants au total en {} à l'UNIL.",
+]
+
+questions_format_filiere_separated = [
+    "Combien y a-t-il d'étudiantes en {} pour la filière {} ?",
+    "Combien y a-t-il d'étudiants en {} pour la filière {} ?",
+    "Combien y a-t-il d'étudiants au total en {} pour la filière {} ?",
+]
+
+answers_format_filiere_separated = [
+	"Il y a {} d'étudiantes pour la filière {} en {}.",
+	"Il y a {} étudiants pour la filière {} en {}.",
+	"Il y a {} étudiants au total pour la filière {} en {}.",
+]
+
 def load_data(path):
     """Charge les données depuis un fichier CSV et retourne un DataFrame"""
     try:
@@ -22,17 +50,33 @@ def load_data(path):
         return None
 
 def create_sentences_from_data(data, filiere):
-    """Créé un tuple (question, réponse) pour chaque ligne du DataFrame en utilisant le format spécifié"""
     sentences = []
+
     for _, row in data.iterrows():
+        femmes = int(row['femmes'])
+        hommes = int(row['hommes'])
+        total = int(row['total'])
+        annee = int(row['annee'])
+
         if filiere != 'TOTAL':
-            question = questions_format_filiere.format(row['annee'], filiere)
-            answer = answers_format_filiere.format(row['femmes'], row['hommes'], row['total'], row['annee'], filiere)
+            for q_template, a_template in zip(questions_format_filiere_separated, answers_format_filiere_separated):
+                question = q_template.format(annee, filiere)
+                if 'étudiantes' in a_template:
+                    answer = a_template.format(femmes, filiere, annee)
+                elif 'étudiants' in a_template and 'total' not in a_template:
+                    answer = a_template.format(hommes, filiere, annee)
+                else:
+                    answer = a_template.format(total, filiere, annee)
+
+                sentences.append((question, answer))
         else:
-            question = questions_format.format(row['annee'])
-            answer = answers_format.format(row['femmes'], row['hommes'], row['total'], row['annee'])
-        sentences.append((question, answer))
+            question = questions_format[0].format(annee)
+            answer = answers_format[0].format(femmes, hommes, total, annee)
+
+            sentences.append((question, answer))
+
     return sentences
+
 
 def get_filiere(path):
     """Retourne le nom de la filière depuis le chemin du fichier CSV"""

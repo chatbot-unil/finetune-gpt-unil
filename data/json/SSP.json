@@ -7,11 +7,59 @@
             },
             {
                 "role": "user",
+                "content": "Combien y a-t-il d'étudiantes en 2011 pour la filière SSP ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 1584 d'étudiantes pour la filière SSP en 2011."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
                 "content": "Combien y a-t-il d'étudiants en 2011 pour la filière SSP ?"
             },
             {
                 "role": "assistant",
-                "content": "Il y a 1584 femmes, 965 hommes et 2549 étudiants au total en 2011 pour la filière SSP."
+                "content": "Il y a 965 étudiants pour la filière SSP en 2011."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants au total en 2011 pour la filière SSP ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 2549 étudiants au total pour la filière SSP en 2011."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiantes en 2012 pour la filière SSP ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 1726 d'étudiantes pour la filière SSP en 2012."
             }
         ]
     },
@@ -27,7 +75,39 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a 1726 femmes, 1045 hommes et 2771 étudiants au total en 2012 pour la filière SSP."
+                "content": "Il y a 1045 étudiants pour la filière SSP en 2012."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants au total en 2012 pour la filière SSP ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 2771 étudiants au total pour la filière SSP en 2012."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiantes en 2013 pour la filière SSP ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 1849 d'étudiantes pour la filière SSP en 2013."
             }
         ]
     },
@@ -43,7 +123,39 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a 1849 femmes, 1144 hommes et 2993 étudiants au total en 2013 pour la filière SSP."
+                "content": "Il y a 1144 étudiants pour la filière SSP en 2013."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants au total en 2013 pour la filière SSP ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 2993 étudiants au total pour la filière SSP en 2013."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiantes en 2014 pour la filière SSP ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 1783 d'étudiantes pour la filière SSP en 2014."
             }
         ]
     },
@@ -59,7 +171,39 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a 1783 femmes, 1107 hommes et 2890 étudiants au total en 2014 pour la filière SSP."
+                "content": "Il y a 1107 étudiants pour la filière SSP en 2014."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants au total en 2014 pour la filière SSP ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 2890 étudiants au total pour la filière SSP en 2014."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiantes en 2015 pour la filière SSP ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 1779 d'étudiantes pour la filière SSP en 2015."
             }
         ]
     },
@@ -75,7 +219,39 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a 1779 femmes, 1093 hommes et 2872 étudiants au total en 2015 pour la filière SSP."
+                "content": "Il y a 1093 étudiants pour la filière SSP en 2015."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants au total en 2015 pour la filière SSP ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 2872 étudiants au total pour la filière SSP en 2015."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiantes en 2016 pour la filière SSP ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 1798 d'étudiantes pour la filière SSP en 2016."
             }
         ]
     },
@@ -91,7 +267,39 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a 1798 femmes, 1134 hommes et 2932 étudiants au total en 2016 pour la filière SSP."
+                "content": "Il y a 1134 étudiants pour la filière SSP en 2016."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants au total en 2016 pour la filière SSP ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 2932 étudiants au total pour la filière SSP en 2016."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiantes en 2017 pour la filière SSP ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 1920 d'étudiantes pour la filière SSP en 2017."
             }
         ]
     },
@@ -107,7 +315,39 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a 1920 femmes, 1166 hommes et 3086 étudiants au total en 2017 pour la filière SSP."
+                "content": "Il y a 1166 étudiants pour la filière SSP en 2017."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants au total en 2017 pour la filière SSP ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 3086 étudiants au total pour la filière SSP en 2017."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiantes en 2018 pour la filière SSP ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 1989 d'étudiantes pour la filière SSP en 2018."
             }
         ]
     },
@@ -123,7 +363,39 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a 1989 femmes, 1196 hommes et 3185 étudiants au total en 2018 pour la filière SSP."
+                "content": "Il y a 1196 étudiants pour la filière SSP en 2018."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants au total en 2018 pour la filière SSP ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 3185 étudiants au total pour la filière SSP en 2018."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiantes en 2019 pour la filière SSP ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 2039 d'étudiantes pour la filière SSP en 2019."
             }
         ]
     },
@@ -139,7 +411,39 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a 2039 femmes, 1187 hommes et 3226 étudiants au total en 2019 pour la filière SSP."
+                "content": "Il y a 1187 étudiants pour la filière SSP en 2019."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants au total en 2019 pour la filière SSP ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 3226 étudiants au total pour la filière SSP en 2019."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiantes en 2020 pour la filière SSP ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 2287 d'étudiantes pour la filière SSP en 2020."
             }
         ]
     },
@@ -155,7 +459,39 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a 2287 femmes, 1221 hommes et 3508 étudiants au total en 2020 pour la filière SSP."
+                "content": "Il y a 1221 étudiants pour la filière SSP en 2020."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants au total en 2020 pour la filière SSP ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 3508 étudiants au total pour la filière SSP en 2020."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiantes en 2021 pour la filière SSP ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 2403 d'étudiantes pour la filière SSP en 2021."
             }
         ]
     },
@@ -171,7 +507,23 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a 2403 femmes, 1225 hommes et 3628 étudiants au total en 2021 pour la filière SSP."
+                "content": "Il y a 1225 étudiants pour la filière SSP en 2021."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants au total en 2021 pour la filière SSP ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a 3628 étudiants au total pour la filière SSP en 2021."
             }
         ]
     }
