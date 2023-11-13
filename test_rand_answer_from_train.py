@@ -14,7 +14,7 @@ system_message = os.getenv("SYSTEM_MESSAGE")
 client = OpenAI()
 
 def get_last_fine_tuned_model():
-	list_models = client.fine_tuning.jobs.list(limit=2)
+	list_models = client.fine_tuning.jobs.list(limit=5)
 	for model in list_models.data:
 		if model.status == 'succeeded':
 			created_at = datetime.utcfromtimestamp(model.created_at).strftime('%Y-%m-%d %H:%M:%S')
