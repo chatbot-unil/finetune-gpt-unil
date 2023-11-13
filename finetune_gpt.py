@@ -9,7 +9,7 @@ from openai import OpenAI
 
 
 parser = argparse.ArgumentParser(description="Fine-tune OpenAI model.")
-parser.add_argument('--epochs', type=int, default=10, help='Number of training epochs')
+parser.add_argument('--epochs', type=int, default=15, help='Number of training epochs')
 parser.add_argument('--training_data_path', type=str, default='data/training_data.jsonl', help='Path to training data')
 parser.add_argument('--validating_data_path', type=str, default='data/validating_data.jsonl', help='Path to validating data')
 args = parser.parse_args()
@@ -22,12 +22,12 @@ os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 client = OpenAI()
 
 file_training = client.files.create(
-  file=open("data/training_data.jsonl", "rb"),
+  file=open(args.training_data_path, "rb"),
   purpose="fine-tune",
 )
 
 file_validating = client.files.create(
-	file=open("data/validating_data.jsonl", "rb"),
+	file=open(args.validating_data_path, "rb"),
   	purpose="fine-tune",
 )
 
@@ -38,6 +38,6 @@ fine_tune = client.fine_tuning.jobs.create(
 	validation_file=file_validating.id,
 	model="gpt-3.5-turbo-1106",
 	hyperparameters={
-      "n_epochs": 10
+      "n_epochs": args.epochs,
     }
 )
