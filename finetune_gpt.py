@@ -59,24 +59,3 @@ fine_tune = client.fine_tuning.jobs.create(
 	validation_file=file_validating.id,
 	model="gpt-3.5-turbo-1106",
 )
-
-# Wait for the fine-tuning to complete
-print("Waiting for fine-tuning to complete...")
-while True:
-	time.sleep(5)
-	fine_tune = client.fine_tuning.jobs.retrieve(fine_tune.id)
-	if fine_tune.status == "succeeded":
-		print("Fine-tuning completed successfully!")
-		break
-	if fine_tune.status == "failed":
-		print("Fine-tuning failed")
-		sys.exit(1)
-print("Fine-tuning completed!")
-
-# Save the model ID to the .env file is the MODEL_ID variable is not already set or it modified 
-with open('.env', 'a') as f:
-	if os.getenv("MODEL_ID") is None or os.getenv("MODEL_ID") != fine_tune.fine_tuned_model:
-		f.write(f"MODEL_ID={fine_tune.fine_tuned_model}\n")
-		print("Model ID saved to .env file")
-	else:
-		print("Model ID already saved to .env file")

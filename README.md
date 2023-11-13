@@ -14,7 +14,6 @@ Ce répo a pour but de tester de finetune GPT3.5 sur un dataset de questions/ré
 - un fichier .env avec
   - OPENAI_API_KEY
   - SYSTEM_MESSAGE
-  - MODEL_ID(optional, se créer automatiquement si pas présent)
 
 ## Installation
 

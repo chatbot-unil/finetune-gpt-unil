@@ -2,16 +2,26 @@ import os
 import sys
 from dotenv import load_dotenv
 from openai import OpenAI
+from datetime import datetime
 
 load_dotenv()
 
 os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
-model_id = os.getenv("MODEL_ID")
 system_message = os.getenv("SYSTEM_MESSAGE")
 
 client = OpenAI()
 
-def completions(message):
+def get_last_fine_tuned_model():
+	list_models = client.fine_tuning.jobs.list(limit=2)
+	for model in list_models.data:
+		if model.status == 'succeeded':
+			created_at = datetime.utcfromtimestamp(model.created_at).strftime('%Y-%m-%d %H:%M:%S')
+			print(f"Model name: {model.fine_tuned_model} - Created at: {created_at}")
+			return model.fine_tuned_model
+	return None
+
+
+def completions(message, model_id):
 	response = client.chat.completions.create(
 		model=model_id,
 		messages=[
@@ -28,5 +38,6 @@ if __name__ == '__main__':
 		sys.exit(1)
 
 	question = sys.argv[1]
-	response = completions(question)
+	model_id = get_last_fine_tuned_model()
+	response = completions(question, model_id)
 	print(response)
