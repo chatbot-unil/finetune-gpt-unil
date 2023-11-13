@@ -13,19 +13,19 @@ questions_format = "Combien y a-t-il d'étudiants en {} ?"
 answers_format = "Il y a {} femmes, {} hommes et {} étudiants au total en {} à l'UNIL."
 
 questions_format_filiere = [
-	"Combien y a-t-il d'étudiants en {} pour la filière {} ?",
+    "Combien y a-t-il d'étudiants en {} pour la filière {} ?",
 ]
 
 answers_format_filiere = [
-	"Il y a {} femmes, {} hommes et {} étudiants au total en {} pour la filière {}.",
+    "Il y a {} femmes, {} hommes et {} étudiants au total en {} pour la filière {}.",
 ]
 
 questions_format = [
-	"Combien y a-t-il d'étudiants en {} ?",
+    "Combien y a-t-il d'étudiants en {} ?",
 ]
 
 answers_format = [
-	"Il y a {} femmes, {} hommes et {} étudiants au total en {} à l'UNIL.",
+    "Il y a {} femmes, {} hommes et {} étudiants au total en {} à l'UNIL.",
 ]
 
 questions_format_filiere_separated = [
@@ -35,9 +35,9 @@ questions_format_filiere_separated = [
 ]
 
 answers_format_filiere_separated = [
-	"Il y a {} d'étudiantes pour la filière {} en {}.",
-	"Il y a {} étudiants pour la filière {} en {}.",
-	"Il y a {} étudiants au total pour la filière {} en {}.",
+    "Il y a {} d'étudiantes pour la filière {} en {}.",
+    "Il y a {} étudiants pour la filière {} en {}.",
+    "Il y a {} étudiants au total pour la filière {} en {}.",
 ]
 
 def load_data(path):
@@ -84,18 +84,19 @@ def get_filiere(path):
     filiere = filename_with_extension.split('.')[0]
     return filiere
 
-def create_training_data(sentences, system_message):
-    """Creates training data in chat-completion format for each question-answer pair."""
+def create_training_data(sentences, system_message, repeat_times=1):
+    """Creates training data in chat-completion format for each question-answer pair, repeated 'repeat_times' times."""
     training_data = []
-    for question, answer in sentences:
-        entry = {
-            "messages": [
-                {"role": "system", "content": system_message},
-                {"role": "user", "content": question},
-                {"role": "assistant", "content": answer}
-            ]
-        }
-        training_data.append(entry)
+    for _ in range(repeat_times):  # Repeat the process 'repeat_times' times
+        for question, answer in sentences:
+            entry = {
+                "messages": [
+                    {"role": "system", "content": system_message},
+                    {"role": "user", "content": question},
+                    {"role": "assistant", "content": answer}
+                ]
+            }
+            training_data.append(entry)
     return training_data
 
 def save_json(data, filiere):
@@ -105,17 +106,22 @@ def save_json(data, filiere):
     with open(path, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=4, ensure_ascii=False)
 
-def process_csv_file(csv_path, system_message):
+def process_csv_file(csv_path, system_message, repeat_times=1):
     filiere = get_filiere(csv_path)
     data = load_data(csv_path)
     if data is not None:
         sentences = create_sentences_from_data(data, filiere)
-        training_data = create_training_data(sentences, system_message)
+        training_data = create_training_data(sentences, system_message, repeat_times=repeat_times)
         save_json(training_data, filiere)
 
 if __name__ == '__main__':
-    if len(sys.argv) < 2:
-        print("Usage: python script.py <path_to_csv_or_directory>")
+    # optional argument: repeat_times
+    if len(sys.argv) == 2:
+        repeat_times = 1
+    elif len(sys.argv) == 3:
+        repeat_times = int(sys.argv[2])
+    else:
+        print("Usage: python script.py <path_to_csv_or_directory> <repeat_times>")
         sys.exit(1)
 
     path = sys.argv[1]
@@ -131,7 +137,7 @@ if __name__ == '__main__':
             if filename.endswith(".csv"):
                 found_csv = True
                 csv_path = os.path.join(path, filename)
-                process_csv_file(csv_path, system_message)
+                process_csv_file(csv_path, system_message, repeat_times=repeat_times)
         if not found_csv:
             print("No CSV files found in the directory.")
             sys.exit(1)
