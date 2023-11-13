@@ -99,6 +99,4 @@ La dernière étape avant de finetuner le modèle sera de regrouper tous les jso
 
 #### Résultats des questions avec plusieurs nombres
 
-
-
 ### 2. Questions avec un seul nombre
