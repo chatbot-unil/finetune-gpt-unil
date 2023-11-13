@@ -93,9 +93,21 @@ Le script va générer un json de questions/réponses pour chaques fillières qu
 La dernière étape avant de finetuner le modèle sera de regrouper tous les jsons de questions/réponses en un seul json, qui dois être sous la forme de jsonl qui est demander par openAI et surtout il doit être sous cette forme :
 
 ```json
-{"messages": [{"role": "system", "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"}, {"role": "user", "content": "Combien y a-t-il d'étudiants en 2011 pour la filière FBM ?"}, {"role": "assistant", "content": "Il y a {} femmes, {} hommes et {} étudiants au total en 2011 pour la filière FBM"}]}
+{
+	"messages": [
+		{"role": "system", "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"}, 
+		{"role": "user", "content": "Combien y a-t-il d'étudiants en 2011 pour la filière FBM ?"}, 
+		{"role": "assistant", "content": "Il y a {} femmes, {} hommes et {} étudiants au total en 2011 pour la filière FBM"}
+	]
+}
 ```
 
+Epochs : 3
+
 #### Résultats des questions avec plusieurs nombres
+
+Les résultats ne sont pas bon du tout, le modèle ne comprend les questions et répond avec un format cohérent mais avec des nombres complètement faux.
+
+![images/first_test.png](images/first_test.png)
 
 ### 2. Questions avec un seul nombre

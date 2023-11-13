@@ -58,4 +58,7 @@ fine_tune = client.fine_tuning.jobs.create(
 	training_file=file_training.id,
 	validation_file=file_validating.id,
 	model="gpt-3.5-turbo-1106",
+	hyperparameters={
+      "n_epochs": 10
+    }
 )
