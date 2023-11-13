@@ -75,8 +75,8 @@ print("Fine-tuning completed!")
 
 # Save the model ID to the .env file is the MODEL_ID variable is not already set or it modified 
 with open('.env', 'a') as f:
-	if os.getenv("MODEL_ID") is None or os.getenv("MODEL_ID") != fine_tune.fine_tuned_model.id:
-		f.write(f"MODEL_ID={fine_tune.fine_tuned_model.id}\n")
+	if os.getenv("MODEL_ID") is None or os.getenv("MODEL_ID") != fine_tune.fine_tuned_model:
+		f.write(f"MODEL_ID={fine_tune.fine_tuned_model}\n")
 		print("Model ID saved to .env file")
 	else:
 		print("Model ID already saved to .env file")
