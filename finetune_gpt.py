@@ -1,8 +1,4 @@
 import os
-import json
-import random
-import sys
-import time
 import argparse
 from dotenv import load_dotenv
 from openai import OpenAI
