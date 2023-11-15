@@ -8,6 +8,7 @@ parser = argparse.ArgumentParser(description="Fine-tune OpenAI model.")
 parser.add_argument('--epochs', type=int, default=15, help='Number of training epochs')
 parser.add_argument('--training_data_path', type=str, default='data/training_data.jsonl', help='Path to training data')
 parser.add_argument('--validating_data_path', type=str, default='data/validating_data.jsonl', help='Path to validating data')
+parser.add_argument('--model', type=str, default='gpt-3.5-turbo-1106', help='Model to fine-tune')
 args = parser.parse_args()
 
 load_dotenv()
@@ -32,7 +33,7 @@ print("Starting fine-tuning...")
 fine_tune = client.fine_tuning.jobs.create(
 	training_file=file_training.id,
 	validation_file=file_validating.id,
-	model="gpt-3.5-turbo-1106",
+	model=args.model,
 	hyperparameters={
       "n_epochs": args.epochs,
     }
