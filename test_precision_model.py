@@ -3,13 +3,14 @@ import sys
 from dotenv import load_dotenv
 from openai import OpenAI
 import json
-from datetime import datetime
 import argparse
 import re
 
 parser = argparse.ArgumentParser(description="Test precision of fine-tuned OpenAI model.")
 parser.add_argument('--limit', type=int, default=3, help='Limit of fine-tuned models to retrieve')
-parser.add_argument('--log', type=str, default='logs/test_precision_model.log', help='Path to log file')
+parser.add_argument('--log', type=str, default='logs/precision_tests.jsonl', help='Log file name')
+parser.add_argument('--nb_tests', type=int, default=10, help='Number of questions to test')
+parser.add_argument('--tolerance', type=float, default=0.0, help='Tolerance for precision evaluation')
 
 args = parser.parse_args()
 
@@ -52,50 +53,57 @@ def load_jsonl_file(path):
 def extraire_chiffres(texte):
     return re.findall(r'\b\d+\b', texte)
 
-def evaluer_reponse(response, expected_response, tolerance=0.05):
+def evaluer_reponse(response, expected_response):
     chiffres_response = [float(n) for n in extraire_chiffres(response)]
     chiffres_expected = [float(n) for n in extraire_chiffres(expected_response)]
-    return all(abs(a - b) <= tolerance * max(a, b) for a, b in zip(chiffres_response, chiffres_expected))
+    return all(abs(a - b) <= args.tolerance * max(a, b) for a, b in zip(chiffres_response, chiffres_expected))
+
 
 def effectuer_un_test(dict_qa, model_id):
-    correct = 0
-    counter = 0
+    test_results = []
     for question, expected_response in dict_qa.items():
         response = completions(question, model_id)
-        if evaluer_reponse(response, expected_response):
-            correct += 1
-        counter += 1
-        if counter >= 10:
+        chiffres_response = extraire_chiffres(response)
+        chiffres_expected = extraire_chiffres(expected_response)
+        precision = evaluer_reponse(response, expected_response)
+        test_results.append({
+            "question": question,
+            "response": response,
+            "chiffres_response": chiffres_response,
+            "chiffres_expected": chiffres_expected,
+            "precision": precision
+        })
+        if len(test_results) >= 10:
             break
-    return correct / counter * 100
+    return test_results
 
-def effectuer_tests_pour_modele(model_id, dict_qa):
-    n_tests = 10  # Nombre de tests à effectuer pour chaque modèle
-    precision_tests = []
+def effectuer_tests_pour_modele(model_id, dict_qa, epochs):
+    test_results = effectuer_un_test(dict_qa, model_id)
+    precision_moyenne = (sum(test["precision"] for test in test_results) / len(test_results)) * 100
+    return {
+        "model_id": model_id,
+        "epochs": epochs,
+        "precision_moyenne": precision_moyenne,
+        "tests": test_results
+    }
 
-    for _ in range(n_tests):
-        precision = effectuer_un_test(dict_qa, model_id)
-        precision_tests.append(precision)
-
-    return sum(precision_tests) / n_tests
+def write_logs_to_file(log_data, log_file_name):
+    with open(log_file_name, 'a', encoding='utf-8') as file:
+        json.dump(log_data, file, indent=4, ensure_ascii=False)
+        file.write("\n")
 
 if __name__ == '__main__':
     dict_qa = load_jsonl_file('data/training_data.jsonl')
-    resultats = {}
-    
     model_info_list = get_last_fine_tuned_models(limit=args.limit)
     modeles_et_epochs = {model_name: epochs for model_name, epochs in model_info_list}
-
-    print(f"Effectue un test pour chaque modèle ({args.limit} modèles maximum)...")
-    print(f"Nombre de questions: {len(dict_qa)}")
-
-    formatted_date_for_filename = datetime.now().strftime("%Y-%m-%d")
-    log_file_name = f"{args.log}_{formatted_date_for_filename}.log"
+    resultats = {}
 
     for model_id, epochs in modeles_et_epochs.items():
-        precision_moyenne = effectuer_tests_pour_modele(model_id, dict_qa)
-        resultats[model_id] = (epochs, precision_moyenne)
+        log_data = effectuer_tests_pour_modele(model_id, dict_qa, epochs)
+        resultats[model_id] = (epochs, log_data["precision_moyenne"])
+        write_logs_to_file(log_data, args.log)
 
-    for model_id, (epochs, precision) in resultats.items():
-        print(f"Modèle {model_id} ({epochs} Epochs): Précision moyenne = {precision:.2f}%")
+    # Affichage des résultats
+    for model_id, (epochs, precision_moyenne) in resultats.items():
+        print(f"Modèle {model_id} ({epochs} Epochs): Précision moyenne = {precision_moyenne:.2f}%")
 
