@@ -113,3 +113,8 @@ Les résultats ne sont pas bon du tout, le modèle ne comprend les questions et 
 ### 2. Questions avec un seul nombre
 
 Pour la deuxième étape j'ai décider de faire des questions avec un seul nombre, comme ceci :
+
+```python
+questions_format_filiere = "Combien y a-t-il d'étudiants en {} pour la filière {} ?"
+answers_format_filiere = "Il y a {} étudiants en {} pour la filière {}."
+````
