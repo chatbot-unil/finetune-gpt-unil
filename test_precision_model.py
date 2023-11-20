@@ -10,7 +10,7 @@ parser = argparse.ArgumentParser(description="Test precision of fine-tuned OpenA
 parser.add_argument('--limit', type=int, default=3, help='Limit of fine-tuned models to retrieve')
 parser.add_argument('--log', type=str, default='logs/precision_tests.jsonl', help='Log file name')
 parser.add_argument('--nb_tests', type=int, default=10, help='Number of questions to test')
-parser.add_argument('--tolerance', type=float, default=0.0, help='Tolerance for precision evaluation')
+parser.add_argument('--temperature', type=float, default=0.1, help='Temperature for completion')
 
 args = parser.parse_args()
 
@@ -37,7 +37,7 @@ def completions(message, model_id):
             {"role": "system", "content": system_message},
             {"role": "user", "content": message},
         ],
-        temperature=0.1,
+        temperature=args.temperature,
     )
     return response.choices[0].message.content
 
@@ -54,9 +54,9 @@ def extraire_chiffres(texte):
     return re.findall(r'\b\d+\b', texte)
 
 def evaluer_reponse(response, expected_response):
-    chiffres_response = [float(n) for n in extraire_chiffres(response)]
-    chiffres_expected = [float(n) for n in extraire_chiffres(expected_response)]
-    return all(abs(a - b) <= args.tolerance * max(a, b) for a, b in zip(chiffres_response, chiffres_expected))
+    chiffres_response = extraire_chiffres(response)
+    chiffres_expected = extraire_chiffres(expected_response)
+    return chiffres_response == chiffres_expected
 
 
 def effectuer_un_test(dict_qa, model_id):
