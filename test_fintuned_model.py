@@ -3,6 +3,12 @@ import sys
 from dotenv import load_dotenv
 from openai import OpenAI
 from datetime import datetime
+import argparse
+
+parser = argparse.ArgumentParser(description="Test precision of fine-tuned OpenAI model.")
+parser.add_argument('--model', type=str, default='', help='Model to fine-tune')
+parser.add_argument('--answer', type=str, default='', help='Answer to the question')
+args = parser.parse_args()
 
 load_dotenv()
 
@@ -33,11 +39,15 @@ def completions(message, model_id):
 	return response.choices[0].message.content
 
 if __name__ == '__main__':
-	if len(sys.argv) < 2:
-		print("Usage: python script.py <question>")
-		sys.exit(1)
 
-	question = sys.argv[1]
-	model_id = get_last_fine_tuned_model()
+	if args.answer == '':
+		sys.exit(0)
+
+	if args.model == '':
+		model_id = get_last_fine_tuned_model()
+	else:
+		model_id = args.model
+
+	question = args.answer
 	response = completions(question, model_id)
 	print(response)

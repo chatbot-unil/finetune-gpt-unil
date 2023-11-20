@@ -69,6 +69,7 @@ def effectuer_un_test(dict_qa, model_id):
         test_results.append({
             "question": question,
             "response": response,
+            "expected_response": expected_response,
             "chiffres_response": chiffres_response,
             "chiffres_expected": chiffres_expected,
             "precision": precision
