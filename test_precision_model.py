@@ -14,6 +14,7 @@ parser.add_argument('--log', type=str, default='', help='Log file name')
 parser.add_argument('--nb_tests', type=int, default=20, help='Number of questions to test')
 parser.add_argument('--temperature', type=float, default=0.1, help='Temperature for completion')
 parser.add_argument('--results', type=str, default='logs/results.json', help='Log file name')
+parser.add_argument('--purpose', type=str, default='test', help='Purpose of the test')
 
 args = parser.parse_args()
 
@@ -107,8 +108,6 @@ if __name__ == '__main__':
     resultats = {}
 
     for model_id, epochs in modeles_et_epochs.items():
-        # mkdir logs/date/model_id
-        # date = 2023-01-01
         date_heure = str(datetime.now()).replace(" ", "_").replace(":", "-").split(".")[0]
         date = str(datetime.now()).split(" ")[0]
         os.makedirs(f"logs/{date}/{model_id}", exist_ok=True)
@@ -128,21 +127,20 @@ if __name__ == '__main__':
             json_log.append({
                 "model_id": model_id,
                 "epochs": epochs,
-                "precision_moyenne": [precision_moyenne]
+                "precisions": [precision_moyenne]
             })
         else:
             for log in json_log:
                 if log["model_id"] == model_id:
-                    log["precision_moyenne"].append(precision_moyenne)
+                    log["precisions"].append(precision_moyenne)
                     break
             else:
                 json_log.append({
                     "model_id": model_id,
                     "epochs": epochs,
-                    "precision_moyenne": [precision_moyenne]
+                    "precisions": [precision_moyenne]
                 })
         print(f"Modèle {model_id} ({epochs} Epochs): Précision moyenne = {precision_moyenne:.2f}%")
-
     with open(file_name, 'w', encoding='utf-8') as file:
         json.dump(json_log, file, indent=4, ensure_ascii=False)
 

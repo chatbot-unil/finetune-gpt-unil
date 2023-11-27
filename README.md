@@ -244,6 +244,8 @@ Pour tester cette partie j'ai utilisé le même script que pour la partie préc�
 
 ![images/third_test.png](images/third_test.png)
 
+##### V1 json
+
 ```json
 [
     {
@@ -277,6 +279,51 @@ Pour tester cette partie j'ai utilisé le même script que pour la partie préc�
             80.0,
             85.0
         ]
+    }
+]
+```
+
+##### V2 json
+
+```json
+[
+    {
+        "model_id": "ft:gpt-3.5-turbo-1106:unisis::8PT97h7T",
+        "epochs": 18,
+        "precisions": [
+            45.0,
+            60.0,
+            65.0,
+            70.0,
+            75.0,
+            65.0,
+            65.0,
+            90.0,
+            75.0,
+            70.0
+        ],
+        "precision_moyenne": 68.0
+    },
+    {
+        "model_id": "ft:gpt-3.5-turbo-1106:unisis::8PTecDft",
+        "epochs": 25,
+        "precisions": [
+            80.0,
+            80.0,
+            80.0,
+            80.0,
+            80.0,
+            75.0,
+            80.0,
+            80.0,
+            95.0,
+            75.0
+        ],
+        "precision_moyenne": 80.5
+    },
+    {
+        "purpose": "test de precision  des modèles finetuner avec des parentheses autour des chiffres",
+        "date": "27/11/2023 15:44:48"
     }
 ]
 ```
