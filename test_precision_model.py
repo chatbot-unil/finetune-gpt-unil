@@ -5,11 +5,13 @@ from openai import OpenAI
 import json
 import argparse
 import re
+import random
+from datetime import datetime
 
 parser = argparse.ArgumentParser(description="Test precision of fine-tuned OpenAI model.")
 parser.add_argument('--limit', type=int, default=3, help='Limit of fine-tuned models to retrieve')
 parser.add_argument('--log', type=str, default='logs/precision_tests.jsonl', help='Log file name')
-parser.add_argument('--nb_tests', type=int, default=10, help='Number of questions to test')
+parser.add_argument('--nb_tests', type=int, default=20, help='Number of questions to test')
 parser.add_argument('--temperature', type=float, default=0.1, help='Temperature for completion')
 
 args = parser.parse_args()
@@ -48,6 +50,9 @@ def load_jsonl_file(path):
             json_line = json.loads(line)
             if 'messages' in json_line and len(json_line['messages']) > 1:
                dict_qa[json_line['messages'][1]['content']] = json_line['messages'][2]['content']
+    items = list(dict_qa.items())
+    random.shuffle(items)
+    dict_qa = dict(items)
     return dict_qa
 
 def extraire_chiffres(texte):
@@ -74,7 +79,7 @@ def effectuer_un_test(dict_qa, model_id):
             "chiffres_expected": chiffres_expected,
             "precision": precision
         })
-        if len(test_results) >= 10:
+        if len(test_results) >= args.nb_tests:
             break
     return test_results
 
@@ -85,6 +90,7 @@ def effectuer_tests_pour_modele(model_id, dict_qa, epochs):
         "model_id": model_id,
         "epochs": epochs,
         "precision_moyenne": precision_moyenne,
+        "date_heure": str(datetime.now()).replace(" ", "_").replace(":", "-").split(".")[0],
         "tests": test_results
     }
 
@@ -100,6 +106,12 @@ if __name__ == '__main__':
     resultats = {}
 
     for model_id, epochs in modeles_et_epochs.items():
+        # mkdir logs/date/model_id
+        # date = 2023-01-01
+        date_heure = str(datetime.now()).replace(" ", "_").replace(":", "-").split(".")[0]
+        date = str(datetime.now()).split(" ")[0]
+        os.makedirs(f"logs/{date}/{model_id}", exist_ok=True)
+        args.log = f"logs/{date}/{model_id}/{date_heure}.json"
         log_data = effectuer_tests_pour_modele(model_id, dict_qa, epochs)
         resultats[model_id] = (epochs, log_data["precision_moyenne"])
         write_logs_to_file(log_data, args.log)

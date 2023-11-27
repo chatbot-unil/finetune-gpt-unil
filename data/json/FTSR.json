@@ -3,7 +3,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
             },
             {
                 "role": "user",
@@ -11,7 +11,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a 34 d'étudiantes pour la filière FTSR en 2011."
+                "content": "Il y a 34 étudiantes pour la filière FTSR en 2011."
             }
         ]
     },
@@ -19,7 +19,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
             },
             {
                 "role": "user",
@@ -35,7 +35,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
             },
             {
                 "role": "user",
@@ -51,7 +51,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
             },
             {
                 "role": "user",
@@ -59,7 +59,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a 39 d'étudiantes pour la filière FTSR en 2012."
+                "content": "Il y a 39 étudiantes pour la filière FTSR en 2012."
             }
         ]
     },
@@ -67,7 +67,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
             },
             {
                 "role": "user",
@@ -83,7 +83,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
             },
             {
                 "role": "user",
@@ -99,7 +99,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
             },
             {
                 "role": "user",
@@ -107,7 +107,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a 52 d'étudiantes pour la filière FTSR en 2013."
+                "content": "Il y a 52 étudiantes pour la filière FTSR en 2013."
             }
         ]
     },
@@ -115,7 +115,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
             },
             {
                 "role": "user",
@@ -131,7 +131,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
             },
             {
                 "role": "user",
@@ -147,7 +147,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
             },
             {
                 "role": "user",
@@ -155,7 +155,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a 57 d'étudiantes pour la filière FTSR en 2014."
+                "content": "Il y a 57 étudiantes pour la filière FTSR en 2014."
             }
         ]
     },
@@ -163,7 +163,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
             },
             {
                 "role": "user",
@@ -179,7 +179,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
             },
             {
                 "role": "user",
@@ -195,7 +195,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
             },
             {
                 "role": "user",
@@ -203,7 +203,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a 66 d'étudiantes pour la filière FTSR en 2015."
+                "content": "Il y a 66 étudiantes pour la filière FTSR en 2015."
             }
         ]
     },
@@ -211,7 +211,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
             },
             {
                 "role": "user",
@@ -227,7 +227,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
             },
             {
                 "role": "user",
@@ -243,7 +243,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
             },
             {
                 "role": "user",
@@ -251,7 +251,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a 66 d'étudiantes pour la filière FTSR en 2016."
+                "content": "Il y a 66 étudiantes pour la filière FTSR en 2016."
             }
         ]
     },
@@ -259,7 +259,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
             },
             {
                 "role": "user",
@@ -275,7 +275,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
             },
             {
                 "role": "user",
@@ -291,7 +291,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
             },
             {
                 "role": "user",
@@ -299,7 +299,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a 67 d'étudiantes pour la filière FTSR en 2017."
+                "content": "Il y a 67 étudiantes pour la filière FTSR en 2017."
             }
         ]
     },
@@ -307,7 +307,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
             },
             {
                 "role": "user",
@@ -323,7 +323,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
             },
             {
                 "role": "user",
@@ -339,7 +339,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
             },
             {
                 "role": "user",
@@ -347,7 +347,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a 58 d'étudiantes pour la filière FTSR en 2018."
+                "content": "Il y a 58 étudiantes pour la filière FTSR en 2018."
             }
         ]
     },
@@ -355,7 +355,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
             },
             {
                 "role": "user",
@@ -371,7 +371,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
             },
             {
                 "role": "user",
@@ -387,7 +387,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
             },
             {
                 "role": "user",
@@ -395,7 +395,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a 57 d'étudiantes pour la filière FTSR en 2019."
+                "content": "Il y a 57 étudiantes pour la filière FTSR en 2019."
             }
         ]
     },
@@ -403,7 +403,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
             },
             {
                 "role": "user",
@@ -419,7 +419,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
             },
             {
                 "role": "user",
@@ -435,7 +435,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
             },
             {
                 "role": "user",
@@ -443,7 +443,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a 52 d'étudiantes pour la filière FTSR en 2020."
+                "content": "Il y a 52 étudiantes pour la filière FTSR en 2020."
             }
         ]
     },
@@ -451,7 +451,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
             },
             {
                 "role": "user",
@@ -467,7 +467,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
             },
             {
                 "role": "user",
@@ -483,7 +483,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
             },
             {
                 "role": "user",
@@ -491,7 +491,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a 48 d'étudiantes pour la filière FTSR en 2021."
+                "content": "Il y a 48 étudiantes pour la filière FTSR en 2021."
             }
         ]
     },
@@ -499,7 +499,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
             },
             {
                 "role": "user",
@@ -515,7 +515,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"
+                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
             },
             {
                 "role": "user",

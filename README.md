@@ -19,7 +19,7 @@ Ce répo a pour but de tester de finetune GPT3.5 sur un dataset de questions/ré
 
 1. Cloner le répo
 2. Créer un environnement virtuel python
-   1. faire `python -m venv venv` pour créer l'environnement virtuel
+   1. faire `python3 -m venv venv` pour créer l'environnement virtuel
    2. activer l'environnement virtuel avec `source venv/bin/activate`
 3. Installer les dépendances avec `pip install -r requirements.txt`
 
@@ -94,11 +94,11 @@ La dernière étape avant de finetuner le modèle sera de regrouper tous les jso
 
 ```json
 {
-	"messages": [
-		{"role": "system", "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"}, 
-		{"role": "user", "content": "Combien y a-t-il d'étudiants en 2011 pour la filière FBM ?"}, 
-		{"role": "assistant", "content": "Il y a {} femmes, {} hommes et {} étudiants au total en 2011 pour la filière FBM"}
-	]
+    "messages": [
+        {"role": "system", "content": "You are an UNIL assistant. Be polite and helpful and answers precisely"}, 
+        {"role": "user", "content": "Combien y a-t-il d'étudiants en 2011 pour la filière FBM ?"}, 
+        {"role": "assistant", "content": "Il y a {} femmes, {} hommes et {} étudiants au total en 2011 pour la filière FBM"}
+    ]
 }
 ```
 
@@ -117,4 +117,100 @@ Pour la deuxième étape j'ai décider de faire des questions avec un seul nombr
 ```python
 questions_format_filiere = "Combien y a-t-il d'étudiants en {} pour la filière {} ?"
 answers_format_filiere = "Il y a {} étudiants en {} pour la filière {}."
-````
+```
+
+Nous avons donc une question avec 2 paramètres, l'année et la filière, et une réponse avec 3 paramètres, le nombre d'étudiants, l'année et la filière. Le modèle va donc générer des questions comme ceci :
+
+`Combien y a-t-il d'étudiants en 2014 pour la filière HEC ?`
+
+Du coup les réponses seront générées comme ceci :
+
+`Il y a x étudiants en 2014 pour la filière HEC.`
+
+J'ai réutliser le même script que pour la prépartaion des datasets. Cepandant j'ai aussi fais un script pour tester : `test_precision_model.py` qui va tester les modèles finetuner avec des questions prises aléatoirement dans le dataset de train. Le script va tester le modèle avec x questions(argument --nb_tests) et va calculer la précision du modèle. En comparant les chiffres générés par le modèle avec les chiffres réels. La précision est calculer comme ceci :
+
+```python
+def extraire_chiffres(texte):
+    return re.findall(r'\b\d+\b', texte)
+
+def evaluer_reponse(response, expected_response):
+    chiffres_response = extraire_chiffres(response)
+    chiffres_expected = extraire_chiffres(expected_response)
+    return chiffres_response == chiffres_expected
+
+
+def effectuer_un_test(dict_qa, model_id):
+    test_results = []
+    for question, expected_response in dict_qa.items():
+        response = completions(question, model_id)
+        chiffres_response = extraire_chiffres(response)
+        chiffres_expected = extraire_chiffres(expected_response)
+        precision = evaluer_reponse(response, expected_response)
+        test_results.append({
+            "question": question,
+            "response": response,
+            "expected_response": expected_response,
+            "chiffres_response": chiffres_response,
+            "chiffres_expected": chiffres_expected,
+            "precision": precision
+        })
+        if len(test_results) >= args.nb_tests:
+            break
+    return test_results
+```
+
+Et générer un fichier json qui sera sous cette forme :
+
+```json
+{
+    "model_id": "ft:gpt-3.5-turbo-1106:unisis::8KSSpznh",
+    "epochs": 3,
+    "precision_moyenne": 15.0,
+    "date_heure": "2023-11-27_10-18-00",
+    "tests": [
+        {
+            "question": "Combien y a-t-il d'étudiants en 2020 pour la filière FTSR ?",
+            "response": "Il n'y a pas de données pour l'année 2020 pour la filière FTSR. Voulez-vous que je vous donne les informations pour une autre année ?",
+            "expected_response": "Il y a 46 étudiants pour la filière FTSR en 2020.",
+            "chiffres_response": [
+                "2020"
+            ],
+            "chiffres_expected": [
+                "46",
+                "2020"
+            ],
+            "precision": false
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants en 2021 pour la filière FBM ?",
+            "response": "Il y a 2029 étudiants pour la filière FBM en 2021.",
+            "expected_response": "Il y a 1530 étudiants pour la filière FBM en 2021.",
+            "chiffres_response": [
+                "2029",
+                "2021"
+            ],
+            "chiffres_expected": [
+                "1530",
+                "2021"
+            ],
+            "precision": false
+        },
+        ...
+    ]
+}
+```
+
+#### Résultats des questions avec un seul nombre
+
+Pour cette partie le but a été de tester la précision du modèle mais nous avons effectué l'entrainement avec le même dataset pour le même modèle cepandant pas avec le même nombres d'itérations.
+
+- 1er test : 3 epochs
+- 2ème test : 15 epochs
+- 3ème test : 20 epochs
+- 4ème test : 25 epochs
+
+A noté que j'ai remarqué rétrospéctivement que le script de test ne fonctionne pas correctement, du coup nous pensions que le modèle était plus précis que ce qu'il est réellement. Et que il y avais potentiellement de l'overfitting.
+
+- 5ème test : 18 epochs
+
+![images/second_test.png](images/second_test.png)
