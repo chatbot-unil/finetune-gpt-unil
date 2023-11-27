@@ -244,4 +244,41 @@ Pour tester cette partie j'ai utilisé le même script que pour la partie préc�
 
 ![images/third_test.png](images/third_test.png)
 
+```json
+[
+    {
+        "model_id": "ft:gpt-3.5-turbo-1106:unisis::8PT97h7T",
+        "epochs": 18,
+        "precision_moyenne": [
+            70.0,
+            50.0,
+            70.0,
+            70.0,
+            55.00000000000001,
+            70.0,
+            70.0,
+            75.0,
+            75.0,
+            75.0
+        ]
+    },
+    {
+        "model_id": "ft:gpt-3.5-turbo-1106:unisis::8PTecDft",
+        "epochs": 25,
+        "precision_moyenne": [
+            70.0,
+            80.0,
+            80.0,
+            90.0,
+            70.0,
+            100.0,
+            75.0,
+            70.0,
+            80.0,
+            85.0
+        ]
+    }
+]
+```
+
 ### 4. Questions avec des nombres écrits en lettres
