@@ -10,11 +10,12 @@ from datetime import datetime
 
 parser = argparse.ArgumentParser(description="Test precision of fine-tuned OpenAI model.")
 parser.add_argument('--limit', type=int, default=2, help='Limit of fine-tuned models to retrieve')
-parser.add_argument('--log', type=str, default='', help='Log file name')
+parser.add_argument('--log', type=str, default='logs/', help='Log file name')
 parser.add_argument('--nb_tests', type=int, default=20, help='Number of questions to test')
 parser.add_argument('--temperature', type=float, default=0.1, help='Temperature for completion')
-parser.add_argument('--results', type=str, default='logs/results.json', help='Log file name')
+parser.add_argument('--results', type=str, default='logs/', help='Log file name')
 parser.add_argument('--purpose', type=str, default='test', help='Purpose of the test')
+parser.add_argument('--testdata', type=str, default='data/training_data.jsonl', help='Test data file name')
 
 args = parser.parse_args()
 
@@ -97,12 +98,12 @@ def effectuer_tests_pour_modele(model_id, dict_qa, epochs):
     }
 
 def write_logs_to_file(log_data, log_file_name):
-    with open(log_file_name, 'a', encoding='utf-8') as file:
+    with open(log_file_name, 'w', encoding='utf-8') as file:
         json.dump(log_data, file, indent=4, ensure_ascii=False)
         file.write("\n")
 
 if __name__ == '__main__':
-    dict_qa = load_jsonl_file('data/training_data.jsonl')
+    dict_qa = load_jsonl_file(args.testdata)
     model_info_list = get_last_fine_tuned_models(limit=args.limit)
     modeles_et_epochs = {model_name: epochs for model_name, epochs in model_info_list}
     resultats = {}
@@ -110,11 +111,11 @@ if __name__ == '__main__':
     for model_id, epochs in modeles_et_epochs.items():
         date_heure = str(datetime.now()).replace(" ", "_").replace(":", "-").split(".")[0]
         date = str(datetime.now()).split(" ")[0]
-        os.makedirs(f"logs/{date}/{model_id}", exist_ok=True)
-        args.log = f"logs/{date}/{model_id}/{date_heure}.json"
+        os.makedirs(f"{args.log}{date}", exist_ok=True)
+        file = f"{args.log}{date}/{model_id}/{date_heure}.json"
         log_data = effectuer_tests_pour_modele(model_id, dict_qa, epochs)
         resultats[model_id] = (epochs, log_data["precision_moyenne"])
-        write_logs_to_file(log_data, args.log)
+        write_logs_to_file(log_data, file)
 
     file_name = args.results
     json_log = []

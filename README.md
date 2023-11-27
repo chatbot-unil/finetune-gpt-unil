@@ -242,6 +242,12 @@ Pour tester cette méthode j'ai utilisé le même script que pour la partie pré
 
 Pour tester cette partie j'ai utilisé le même script que pour la partie précédente, cepandant je voulais faire plusieurs tests donc j'ai fais un script qui fais des subproccess pour lancer plusieurs tests et faire une moyen des précisions. Le script est `test_precision_model_subproccess.py` et il va lancer le script `test_precision_model.py` plusieurs fois et faire une moyenne des précisions. J'ai effectué 10 x 20 tests avec 18 epochs et 10 x 20 tests avec 25 epochs.
 
+Exemple de commande pour lancer le script :
+
+```bash
+python3 test_precision_model_subproccess.py --times 10 --results logs/2023-11-27/results_test_parentheses.json --purpose "test de precision  des modèles finetuner avec des parentheses autour des chiffres"
+```
+
 ![images/third_test.png](images/third_test.png)
 
 ##### V1 json

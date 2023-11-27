@@ -10,8 +10,9 @@ parser.add_argument('--times', type=int, default=10, help='Number of times to ru
 parser.add_argument('--nb_tests', type=int, default=20, help='Number of questions to test')
 parser.add_argument('--temperature', type=float, default=0.1, help='Temperature for completion')
 parser.add_argument('--script', type=str, default='test_precision_model.py', help='Script to run')
-parser.add_argument('--results', type=str, default='logs/results.json', help='Log file name')
+parser.add_argument('--results', type=str, default='logs/', help='Log file name')
 parser.add_argument('--purpose', type=str, default='test', help='Purpose of the test')
+parser.add_argument('--log', type=str, default='logs/', help='Log file name')
 
 args = parser.parse_args()
 
@@ -40,7 +41,7 @@ def make_moyenne(json_file):
     with open(f'{json_file}', 'w', encoding='utf-8') as f:
         json.dump(results, f, indent=4, ensure_ascii=False)
 
-command = f"python3 {args.script} --limit {args.limit} --nb_tests {args.nb_tests} --temperature {args.temperature} --results {args.results} --purpose \"{args.purpose}\""
+command = f"python3 {args.script} --limit {args.limit} --nb_tests {args.nb_tests} --temperature {args.temperature} --results {args.results} --purpose \"{args.purpose}\" --log \"{args.log}\""
 
 run_process_x_times(command, args.times)
 make_moyenne(args.results)
