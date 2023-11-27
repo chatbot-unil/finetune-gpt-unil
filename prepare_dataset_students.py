@@ -36,9 +36,9 @@ questions_format_filiere_separated = [
 ]
 
 answers_format_filiere_separated = [
-    "Il y a {} étudiantes pour la filière {} en {}.",
-    "Il y a {} étudiants pour la filière {} en {}.",
-    "Il y a {} étudiants au total pour la filière {} en {}.",
+    "Il y a ({}) étudiantes pour la filière {} en {}.",
+    "Il y a ({}) étudiants pour la filière {} en {}.",
+    "Il y a ({}) étudiants au total pour la filière {} en {}.",
 ]
 
 def load_data(path):

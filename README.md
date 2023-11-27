@@ -214,3 +214,26 @@ A noté que j'ai remarqué rétrospéctivement que le script de test ne fonction
 - 5ème test : 18 epochs
 
 ![images/second_test.png](images/second_test.png)
+
+### 3. Questions avec parenthèses autour des nombres
+
+Pour cette partie j'ai décider de faire des questions avec des parenthèses autour des nombres, pour voir si cela peut forcer le modèle à générer les bonnes réponses. Les questions sont comme ceci :
+
+```python
+questions_format_filiere_separated = [
+    "Combien y a-t-il d'étudiantes en {} pour la filière {} ?",
+    "Combien y a-t-il d'étudiants en {} pour la filière {} ?",
+    "Combien y a-t-il d'étudiants au total en {} pour la filière {} ?",
+]
+
+answers_format_filiere_separated = [
+    "Il y a ({}) étudiantes pour la filière {} en {}.",
+    "Il y a ({}) étudiants pour la filière {} en {}.",
+    "Il y a ({}) étudiants au total pour la filière {} en {}.",
+]
+```
+
+Pour tester cette méthode j'ai utilisé le même script que pour la partie précédente, et j'ai effectué 2 entrainements :
+
+- 1er entrainement : 25 epochs
+- 2ème entrainement : 18 epochs
