@@ -22,7 +22,7 @@ def get_last_fine_tuned_model():
 	for model in list_models.data:
 		if model.status == 'succeeded':
 			created_at = datetime.utcfromtimestamp(model.created_at).strftime('%Y-%m-%d %H:%M:%S')
-			print(f"Model name: {model.fine_tuned_model} - Created at: {created_at}")
+			print(f"Model name: {model.fine_tuned_model} - Created at: {created_at} - Epochs: {model.hyperparameters.n_epochs}")
 			return model.fine_tuned_model
 	return None
 

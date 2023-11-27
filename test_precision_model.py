@@ -9,10 +9,11 @@ import random
 from datetime import datetime
 
 parser = argparse.ArgumentParser(description="Test precision of fine-tuned OpenAI model.")
-parser.add_argument('--limit', type=int, default=3, help='Limit of fine-tuned models to retrieve')
-parser.add_argument('--log', type=str, default='logs/precision_tests.jsonl', help='Log file name')
+parser.add_argument('--limit', type=int, default=2, help='Limit of fine-tuned models to retrieve')
+parser.add_argument('--log', type=str, default='', help='Log file name')
 parser.add_argument('--nb_tests', type=int, default=20, help='Number of questions to test')
 parser.add_argument('--temperature', type=float, default=0.1, help='Temperature for completion')
+parser.add_argument('--results', type=str, default='logs/results.json', help='Log file name')
 
 args = parser.parse_args()
 
@@ -116,7 +117,32 @@ if __name__ == '__main__':
         resultats[model_id] = (epochs, log_data["precision_moyenne"])
         write_logs_to_file(log_data, args.log)
 
-    # Affichage des résultats
+    file_name = args.results
+    json_log = []
+    if os.path.exists(file_name):
+        with open(file_name, 'r', encoding='utf-8') as file:
+            json_log = json.load(file)
+
     for model_id, (epochs, precision_moyenne) in resultats.items():
+        if len(json_log) == 0:
+            json_log.append({
+                "model_id": model_id,
+                "epochs": epochs,
+                "precision_moyenne": [precision_moyenne]
+            })
+        else:
+            for log in json_log:
+                if log["model_id"] == model_id:
+                    log["precision_moyenne"].append(precision_moyenne)
+                    break
+            else:
+                json_log.append({
+                    "model_id": model_id,
+                    "epochs": epochs,
+                    "precision_moyenne": [precision_moyenne]
+                })
         print(f"Modèle {model_id} ({epochs} Epochs): Précision moyenne = {precision_moyenne:.2f}%")
+
+    with open(file_name, 'w', encoding='utf-8') as file:
+        json.dump(json_log, file, indent=4, ensure_ascii=False)
 
