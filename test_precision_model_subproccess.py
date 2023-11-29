@@ -27,7 +27,7 @@ def make_moyenne(json_file):
     for result in results:
         model_id = result['model_id']
         epochs = result['epochs']
-        precisions = result['precisions']
+        precisions = [file['precisions'] for file in result['files']]
         moyenne = sum(precisions) / len(precisions) if precisions else 0
         result['precision_moyenne'] = moyenne
         precisions = []

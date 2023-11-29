@@ -113,33 +113,44 @@ if __name__ == '__main__':
         date = str(datetime.now()).split(" ")[0]
         os.makedirs(f"{args.log}{date}", exist_ok=True)
         file = f"{args.log}{date}/{model_id}/{date_heure}.json"
+        if not os.path.exists(file):
+            os.makedirs(os.path.dirname(file), exist_ok=True)
         log_data = effectuer_tests_pour_modele(model_id, dict_qa, epochs)
-        resultats[model_id] = (epochs, log_data["precision_moyenne"])
+        resultats[model_id] = (epochs, log_data["precision_moyenne"], file)
         write_logs_to_file(log_data, file)
-
+        
     file_name = args.results
     json_log = []
     if os.path.exists(file_name):
         with open(file_name, 'r', encoding='utf-8') as file:
             json_log = json.load(file)
 
-    for model_id, (epochs, precision_moyenne) in resultats.items():
+    for model_id, (epochs, precision_moyenne, file_test) in resultats.items():
         if len(json_log) == 0:
             json_log.append({
                 "model_id": model_id,
                 "epochs": epochs,
-                "precisions": [precision_moyenne]
+                "files": [{
+                    "file": file_test,
+					"precisions": precision_moyenne
+				}]
             })
         else:
             for log in json_log:
                 if log["model_id"] == model_id:
-                    log["precisions"].append(precision_moyenne)
+                    log["files"].append({
+						"file": file_test,
+						"precisions": precision_moyenne
+					})
                     break
             else:
                 json_log.append({
                     "model_id": model_id,
                     "epochs": epochs,
-                    "precisions": [precision_moyenne]
+                    "files": [{
+						"file": file_test,
+						"precisions": precision_moyenne
+					}]
                 })
         print(f"Modèle {model_id} ({epochs} Epochs): Précision moyenne = {precision_moyenne:.2f}%")
     with open(file_name, 'w', encoding='utf-8') as file:

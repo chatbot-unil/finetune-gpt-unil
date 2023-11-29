@@ -1,0 +1,288 @@
+{
+    "model_id": "ft:gpt-3.5-turbo-1106:unisis::8PTecDft",
+    "epochs": 25,
+    "precision_moyenne": 0.0,
+    "date_heure": "2023-11-29_10-44-05",
+    "tests": [
+        {
+            "question": "Combien y a-t-il d'étudiantes en 2011 pour la filière SSP ?",
+            "response": "Il y a 1589 étudiantes pour la filière SSP en 2011.",
+            "expected_response": "Il y a (1584) étudiantes pour la filière SSP en 2011.",
+            "chiffres_response": [
+                "1589",
+                "2011"
+            ],
+            "chiffres_expected": [
+                "1584",
+                "2011"
+            ],
+            "precision": false
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants en 2013 pour la filière Lettres ?",
+            "response": "Il y a (1797) étudiants pour la filière Lettres en 2013.",
+            "expected_response": "Il y a (796) étudiants pour la filière Lettres en 2013.",
+            "chiffres_response": [
+                "1797",
+                "2013"
+            ],
+            "chiffres_expected": [
+                "796",
+                "2013"
+            ],
+            "precision": false
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants en 2015 pour la filière FDCA ?",
+            "response": "Il y a (1783) étudiants pour la filière FDCA en 2015.",
+            "expected_response": "Il y a (780) étudiants pour la filière FDCA en 2015.",
+            "chiffres_response": [
+                "1783",
+                "2015"
+            ],
+            "chiffres_expected": [
+                "780",
+                "2015"
+            ],
+            "precision": false
+        },
+        {
+            "question": "Combien y a-t-il d'étudiantes en 2016 pour la filière SSP ?",
+            "response": "Il y a 1779 étudiantes pour la filière SSP en 2016.",
+            "expected_response": "Il y a (1798) étudiantes pour la filière SSP en 2016.",
+            "chiffres_response": [
+                "1779",
+                "2016"
+            ],
+            "chiffres_expected": [
+                "1798",
+                "2016"
+            ],
+            "precision": false
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants au total en 2020 pour la filière FGSE ?",
+            "response": "Il y a 2400 étudiants au total pour la FGSE en 2020.",
+            "expected_response": "Il y a (947) étudiants au total pour la filière FGSE en 2020.",
+            "chiffres_response": [
+                "2400",
+                "2020"
+            ],
+            "chiffres_expected": [
+                "947",
+                "2020"
+            ],
+            "precision": false
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants en 2021 pour la filière HEC ?",
+            "response": "Il y a environ 2000 étudiants pour la filière HEC en 2021.",
+            "expected_response": "Il y a (2094) étudiants pour la filière HEC en 2021.",
+            "chiffres_response": [
+                "2000",
+                "2021"
+            ],
+            "chiffres_expected": [
+                "2094",
+                "2021"
+            ],
+            "precision": false
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants en 2019 pour la filière FTSR ?",
+            "response": "Il y a (52) étudiants pour la filière FTSR en 2019.",
+            "expected_response": "Il y a (50) étudiants pour la filière FTSR en 2019.",
+            "chiffres_response": [
+                "52",
+                "2019"
+            ],
+            "chiffres_expected": [
+                "50",
+                "2019"
+            ],
+            "precision": false
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants au total en 2021 pour la filière Lettres ?",
+            "response": "Il y a (2000) étudiants au total pour la filière Lettres en 2021.",
+            "expected_response": "Il y a (2200) étudiants au total pour la filière Lettres en 2021.",
+            "chiffres_response": [
+                "2000",
+                "2021"
+            ],
+            "chiffres_expected": [
+                "2200",
+                "2021"
+            ],
+            "precision": false
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants en 2016 pour la filière FDCA ?",
+            "response": "Il y a 2000 étudiants pour la filière FDCA en 2016.",
+            "expected_response": "Il y a (808) étudiants pour la filière FDCA en 2016.",
+            "chiffres_response": [
+                "2000",
+                "2016"
+            ],
+            "chiffres_expected": [
+                "808",
+                "2016"
+            ],
+            "precision": false
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants en 2015 pour la filière Lettres ?",
+            "response": "Il y a (1990) étudiants pour la filière Lettres en 2015.",
+            "expected_response": "Il y a (804) étudiants pour la filière Lettres en 2015.",
+            "chiffres_response": [
+                "1990",
+                "2015"
+            ],
+            "chiffres_expected": [
+                "804",
+                "2015"
+            ],
+            "precision": false
+        },
+        {
+            "question": "Combien y a-t-il d'étudiantes en 2014 pour la filière SSP ?",
+            "response": "Il y a (1779) étudiantes pour la filière SSP en 2014.",
+            "expected_response": "Il y a (1783) étudiantes pour la filière SSP en 2014.",
+            "chiffres_response": [
+                "1779",
+                "2014"
+            ],
+            "chiffres_expected": [
+                "1783",
+                "2014"
+            ],
+            "precision": false
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants en 2014 pour la filière FDCA ?",
+            "response": "Il y a (1897) étudiants pour la filière FDCA en 2014.",
+            "expected_response": "Il y a (772) étudiants pour la filière FDCA en 2014.",
+            "chiffres_response": [
+                "1897",
+                "2014"
+            ],
+            "chiffres_expected": [
+                "772",
+                "2014"
+            ],
+            "precision": false
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants en 2017 pour la filière FDCA ?",
+            "response": "Il y a 1983 étudiants pour la filière FDCA en 2017.",
+            "expected_response": "Il y a (789) étudiants pour la filière FDCA en 2017.",
+            "chiffres_response": [
+                "1983",
+                "2017"
+            ],
+            "chiffres_expected": [
+                "789",
+                "2017"
+            ],
+            "precision": false
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants en 2014 pour la filière FGSE ?",
+            "response": "Il y a (817) étudiants pour la filière FGSE en 2014.",
+            "expected_response": "Il y a (476) étudiants pour la filière FGSE en 2014.",
+            "chiffres_response": [
+                "817",
+                "2014"
+            ],
+            "chiffres_expected": [
+                "476",
+                "2014"
+            ],
+            "precision": false
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants au total en 2012 pour la filière FDCA ?",
+            "response": "Il y a (1911) étudiants au total pour la filière FDCA en 2012.",
+            "expected_response": "Il y a (1711) étudiants au total pour la filière FDCA en 2012.",
+            "chiffres_response": [
+                "1911",
+                "2012"
+            ],
+            "chiffres_expected": [
+                "1711",
+                "2012"
+            ],
+            "precision": false
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants au total en 2021 pour la filière SSP ?",
+            "response": "Il y a 3500 étudiants au total pour la filière SSP en 2021.",
+            "expected_response": "Il y a (3628) étudiants au total pour la filière SSP en 2021.",
+            "chiffres_response": [
+                "3500",
+                "2021"
+            ],
+            "chiffres_expected": [
+                "3628",
+                "2021"
+            ],
+            "precision": false
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants en 2017 pour la filière Lettres ?",
+            "response": "Il y a 1896 étudiants pour la filière Lettres en 2017.",
+            "expected_response": "Il y a (827) étudiants pour la filière Lettres en 2017.",
+            "chiffres_response": [
+                "1896",
+                "2017"
+            ],
+            "chiffres_expected": [
+                "827",
+                "2017"
+            ],
+            "precision": false
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants au total en 2016 pour la filière Lettres ?",
+            "response": "Il y a (2237) étudiants au total pour la filière Lettres en 2016.",
+            "expected_response": "Il y a (2194) étudiants au total pour la filière Lettres en 2016.",
+            "chiffres_response": [
+                "2237",
+                "2016"
+            ],
+            "chiffres_expected": [
+                "2194",
+                "2016"
+            ],
+            "precision": false
+        },
+        {
+            "question": "Combien y a-t-il d'étudiantes en 2015 pour la filière FGSE ?",
+            "response": "Il y a (785) étudiantes pour la filière FGSE en 2015.",
+            "expected_response": "Il y a (366) étudiantes pour la filière FGSE en 2015.",
+            "chiffres_response": [
+                "785",
+                "2015"
+            ],
+            "chiffres_expected": [
+                "366",
+                "2015"
+            ],
+            "precision": false
+        },
+        {
+            "question": "Combien y a-t-il d'étudiantes en 2021 pour la filière Lettres ?",
+            "response": "Il y a (1392) étudiantes pour la filière Lettres en 2021.",
+            "expected_response": "Il y a (1396) étudiantes pour la filière Lettres en 2021.",
+            "chiffres_response": [
+                "1392",
+                "2021"
+            ],
+            "chiffres_expected": [
+                "1396",
+                "2021"
+            ],
+            "precision": false
+        }
+    ]
+}
