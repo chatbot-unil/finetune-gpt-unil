@@ -521,4 +521,10 @@ J'ai ajouter a chaque moyenne le test qui a été effectué pour avoir une meill
 ]
 ```
 
-### 4. Questions avec des nombres écrits en lettres
+### 4. Questions avec un $ devant les nombres
+
+```Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont précedées d'un $.```
+
+### 5. Questions avec des triples quotes autour des nombres
+
+```Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes.```

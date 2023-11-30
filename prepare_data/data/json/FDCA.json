@@ -1,0 +1,530 @@
+[
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les nombres sont entre parenthèses."
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiantes en 2011 pour la filière FDCA ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a (993) étudiantes pour la filière FDCA en 2011."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les nombres sont entre parenthèses."
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2011 pour la filière FDCA ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a (645) étudiants pour la filière FDCA en 2011."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les nombres sont entre parenthèses."
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants au total en 2011 pour la filière FDCA ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a (1638) étudiants au total pour la filière FDCA en 2011."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les nombres sont entre parenthèses."
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiantes en 2012 pour la filière FDCA ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a (1034) étudiantes pour la filière FDCA en 2012."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les nombres sont entre parenthèses."
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2012 pour la filière FDCA ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a (677) étudiants pour la filière FDCA en 2012."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les nombres sont entre parenthèses."
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants au total en 2012 pour la filière FDCA ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a (1711) étudiants au total pour la filière FDCA en 2012."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les nombres sont entre parenthèses."
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiantes en 2013 pour la filière FDCA ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a (1063) étudiantes pour la filière FDCA en 2013."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les nombres sont entre parenthèses."
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2013 pour la filière FDCA ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a (710) étudiants pour la filière FDCA en 2013."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les nombres sont entre parenthèses."
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants au total en 2013 pour la filière FDCA ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a (1773) étudiants au total pour la filière FDCA en 2013."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les nombres sont entre parenthèses."
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiantes en 2014 pour la filière FDCA ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a (1125) étudiantes pour la filière FDCA en 2014."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les nombres sont entre parenthèses."
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2014 pour la filière FDCA ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a (772) étudiants pour la filière FDCA en 2014."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les nombres sont entre parenthèses."
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants au total en 2014 pour la filière FDCA ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a (1897) étudiants au total pour la filière FDCA en 2014."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les nombres sont entre parenthèses."
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiantes en 2015 pour la filière FDCA ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a (1139) étudiantes pour la filière FDCA en 2015."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les nombres sont entre parenthèses."
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2015 pour la filière FDCA ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a (780) étudiants pour la filière FDCA en 2015."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les nombres sont entre parenthèses."
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants au total en 2015 pour la filière FDCA ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a (1919) étudiants au total pour la filière FDCA en 2015."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les nombres sont entre parenthèses."
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiantes en 2016 pour la filière FDCA ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a (1201) étudiantes pour la filière FDCA en 2016."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les nombres sont entre parenthèses."
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2016 pour la filière FDCA ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a (808) étudiants pour la filière FDCA en 2016."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les nombres sont entre parenthèses."
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants au total en 2016 pour la filière FDCA ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a (2009) étudiants au total pour la filière FDCA en 2016."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les nombres sont entre parenthèses."
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiantes en 2017 pour la filière FDCA ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a (1204) étudiantes pour la filière FDCA en 2017."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les nombres sont entre parenthèses."
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2017 pour la filière FDCA ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a (789) étudiants pour la filière FDCA en 2017."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les nombres sont entre parenthèses."
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants au total en 2017 pour la filière FDCA ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a (1993) étudiants au total pour la filière FDCA en 2017."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les nombres sont entre parenthèses."
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiantes en 2018 pour la filière FDCA ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a (1257) étudiantes pour la filière FDCA en 2018."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les nombres sont entre parenthèses."
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2018 pour la filière FDCA ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a (772) étudiants pour la filière FDCA en 2018."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les nombres sont entre parenthèses."
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants au total en 2018 pour la filière FDCA ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a (2029) étudiants au total pour la filière FDCA en 2018."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les nombres sont entre parenthèses."
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiantes en 2019 pour la filière FDCA ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a (1327) étudiantes pour la filière FDCA en 2019."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les nombres sont entre parenthèses."
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2019 pour la filière FDCA ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a (791) étudiants pour la filière FDCA en 2019."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les nombres sont entre parenthèses."
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants au total en 2019 pour la filière FDCA ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a (2118) étudiants au total pour la filière FDCA en 2019."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les nombres sont entre parenthèses."
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiantes en 2020 pour la filière FDCA ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a (1472) étudiantes pour la filière FDCA en 2020."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les nombres sont entre parenthèses."
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2020 pour la filière FDCA ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a (807) étudiants pour la filière FDCA en 2020."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les nombres sont entre parenthèses."
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants au total en 2020 pour la filière FDCA ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a (2279) étudiants au total pour la filière FDCA en 2020."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les nombres sont entre parenthèses."
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiantes en 2021 pour la filière FDCA ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a (1553) étudiantes pour la filière FDCA en 2021."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les nombres sont entre parenthèses."
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants en 2021 pour la filière FDCA ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a (810) étudiants pour la filière FDCA en 2021."
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les nombres sont entre parenthèses."
+            },
+            {
+                "role": "user",
+                "content": "Combien y a-t-il d'étudiants au total en 2021 pour la filière FDCA ?"
+            },
+            {
+                "role": "assistant",
+                "content": "Il y a (2363) étudiants au total pour la filière FDCA en 2021."
+            }
+        ]
+    }
+]
