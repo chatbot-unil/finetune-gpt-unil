@@ -334,4 +334,191 @@ python3 test_precision_model_subproccess.py --times 10 --results logs/2023-11-27
 ]
 ```
 
+#### Modifications des logs
+
+J'ai ajouter a chaque moyenne le test qui a été effectué pour avoir une meilleur visibilité des résultats.
+
+```json
+[
+    {
+        "model_id": "ft:gpt-3.5-turbo-1106:unisis::8PT97h7T",
+        "epochs": 18,
+        "files": [
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PT97h7T/2023-11-29_10-29-00.json",
+                "precisions": 15.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PT97h7T/2023-11-29_10-29-22.json",
+                "precisions": 5.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PT97h7T/2023-11-29_10-29-44.json",
+                "precisions": 10.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PT97h7T/2023-11-29_10-30-07.json",
+                "precisions": 15.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PT97h7T/2023-11-29_10-30-27.json",
+                "precisions": 10.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PT97h7T/2023-11-29_10-30-49.json",
+                "precisions": 25.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PT97h7T/2023-11-29_10-31-09.json",
+                "precisions": 20.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PT97h7T/2023-11-29_10-31-30.json",
+                "precisions": 15.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PT97h7T/2023-11-29_10-31-51.json",
+                "precisions": 15.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PT97h7T/2023-11-29_10-32-13.json",
+                "precisions": 15.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PT97h7T/2023-11-29_10-41-38.json",
+                "precisions": 10.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PT97h7T/2023-11-29_10-41-59.json",
+                "precisions": 5.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PT97h7T/2023-11-29_10-42-20.json",
+                "precisions": 15.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PT97h7T/2023-11-29_10-42-41.json",
+                "precisions": 10.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PT97h7T/2023-11-29_10-43-02.json",
+                "precisions": 15.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PT97h7T/2023-11-29_10-43-23.json",
+                "precisions": 5.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PT97h7T/2023-11-29_10-43-45.json",
+                "precisions": 10.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PT97h7T/2023-11-29_10-44-06.json",
+                "precisions": 15.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PT97h7T/2023-11-29_10-44-26.json",
+                "precisions": 10.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PT97h7T/2023-11-29_10-44-47.json",
+                "precisions": 15.0
+            }
+        ],
+        "precision_moyenne": 12.75
+    },
+    {
+        "model_id": "ft:gpt-3.5-turbo-1106:unisis::8PTecDft",
+        "epochs": 25,
+        "files": [
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PTecDft/2023-11-29_10-29-11.json",
+                "precisions": 15.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PTecDft/2023-11-29_10-29-33.json",
+                "precisions": 20.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PTecDft/2023-11-29_10-29-55.json",
+                "precisions": 15.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PTecDft/2023-11-29_10-30-17.json",
+                "precisions": 5.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PTecDft/2023-11-29_10-30-38.json",
+                "precisions": 5.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PTecDft/2023-11-29_10-30-59.json",
+                "precisions": 10.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PTecDft/2023-11-29_10-31-20.json",
+                "precisions": 25.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PTecDft/2023-11-29_10-31-41.json",
+                "precisions": 15.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PTecDft/2023-11-29_10-32-02.json",
+                "precisions": 5.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PTecDft/2023-11-29_10-32-23.json",
+                "precisions": 10.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PTecDft/2023-11-29_10-41-49.json",
+                "precisions": 15.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PTecDft/2023-11-29_10-42-09.json",
+                "precisions": 5.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PTecDft/2023-11-29_10-42-30.json",
+                "precisions": 5.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PTecDft/2023-11-29_10-42-51.json",
+                "precisions": 15.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PTecDft/2023-11-29_10-43-13.json",
+                "precisions": 15.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PTecDft/2023-11-29_10-43-34.json",
+                "precisions": 5.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PTecDft/2023-11-29_10-43-55.json",
+                "precisions": 0.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PTecDft/2023-11-29_10-44-16.json",
+                "precisions": 0.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PTecDft/2023-11-29_10-44-36.json",
+                "precisions": 15.0
+            },
+            {
+                "file": "logs/2023-11-29/ft:gpt-3.5-turbo-1106:unisis::8PTecDft/2023-11-29_10-44-57.json",
+                "precisions": 0.0
+            }
+        ],
+        "precision_moyenne": 10.0
+    },
+    {
+        "purpose": "test de precision  des modèles finetuner avec des parentheses autour des chiffres",
+        "date": "29/11/2023 10:45:07"
+    }
+]
+```
+
 ### 4. Questions avec des nombres écrits en lettres
