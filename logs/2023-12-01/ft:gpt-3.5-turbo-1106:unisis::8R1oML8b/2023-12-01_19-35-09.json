@@ -1,0 +1,292 @@
+{
+    "model_id": "ft:gpt-3.5-turbo-1106:unisis::8R1oML8b",
+    "epochs": 25,
+    "precision_moyenne": 85.0,
+    "date_heure": "2023-12-01_19-35-19",
+    "tests": [
+        {
+            "question": "Combien y a-t-il d'étudiants en 2020 ?",
+            "response": "Il y a 9758 femmes, 7164 hommes et 16922 étudiants au total en 2020 à l'UNIL.",
+            "expected_response": "Il y a 9758 femmes, 7161 hommes et 16919 étudiants au total en 2020 à l'UNIL.",
+            "chiffres_response": [
+                "9758",
+                "7164",
+                "16922",
+                "2020"
+            ],
+            "chiffres_expected": [
+                "9758",
+                "7161",
+                "16919",
+                "2020"
+            ],
+            "precision": false
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants en 2011 pour la filière FGSE ?",
+            "response": "Il y a $433 étudiants pour la filière FGSE en 2011.",
+            "expected_response": "Il y a $433 étudiants pour la filière FGSE en 2011.",
+            "chiffres_response": [
+                "433",
+                "2011"
+            ],
+            "chiffres_expected": [
+                "433",
+                "2011"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants au total en 2012 pour la filière FTSR ?",
+            "response": "Il y a $78 étudiants au total pour la filière FTSR en 2012.",
+            "expected_response": "Il y a $78 étudiants au total pour la filière FTSR en 2012.",
+            "chiffres_response": [
+                "78",
+                "2012"
+            ],
+            "chiffres_expected": [
+                "78",
+                "2012"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants au total en 2019 pour la filière SSP ?",
+            "response": "Il y a $3226 étudiants au total pour la filière SSP en 2019.",
+            "expected_response": "Il y a $3226 étudiants au total pour la filière SSP en 2019.",
+            "chiffres_response": [
+                "3226",
+                "2019"
+            ],
+            "chiffres_expected": [
+                "3226",
+                "2019"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants au total en 2017 pour la filière HEC ?",
+            "response": "Il y a $3007 étudiants au total pour la filière HEC en 2017.",
+            "expected_response": "Il y a $3007 étudiants au total pour la filière HEC en 2017.",
+            "chiffres_response": [
+                "3007",
+                "2017"
+            ],
+            "chiffres_expected": [
+                "3007",
+                "2017"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants en 2016 pour la filière Lettres ?",
+            "response": "Il y a $827 étudiants pour la filière Lettres en 2016.",
+            "expected_response": "Il y a $831 étudiants pour la filière Lettres en 2016.",
+            "chiffres_response": [
+                "827",
+                "2016"
+            ],
+            "chiffres_expected": [
+                "831",
+                "2016"
+            ],
+            "precision": false
+        },
+        {
+            "question": "Combien y a-t-il d'étudiantes en 2017 pour la filière FGSE ?",
+            "response": "Il y a $367 étudiantes pour la filière FGSE en 2017.",
+            "expected_response": "Il y a $367 étudiantes pour la filière FGSE en 2017.",
+            "chiffres_response": [
+                "367",
+                "2017"
+            ],
+            "chiffres_expected": [
+                "367",
+                "2017"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants en 2014 pour la filière FCUE ?",
+            "response": "Il y a $175 étudiants pour la filière FCUE en 2014.",
+            "expected_response": "Il y a $175 étudiants pour la filière FCUE en 2014.",
+            "chiffres_response": [
+                "175",
+                "2014"
+            ],
+            "chiffres_expected": [
+                "175",
+                "2014"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants en 2020 pour la filière Lettres ?",
+            "response": "Il y a $812 étudiants pour la filière Lettres en 2020.",
+            "expected_response": "Il y a $812 étudiants pour la filière Lettres en 2020.",
+            "chiffres_response": [
+                "812",
+                "2020"
+            ],
+            "chiffres_expected": [
+                "812",
+                "2020"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants au total en 2020 pour la filière HEC ?",
+            "response": "Il y a $3306 étudiants au total pour la filière HEC en 2020.",
+            "expected_response": "Il y a $3306 étudiants au total pour la filière HEC en 2020.",
+            "chiffres_response": [
+                "3306",
+                "2020"
+            ],
+            "chiffres_expected": [
+                "3306",
+                "2020"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants en 2012 pour la filière HEC ?",
+            "response": "Il y a $1493 étudiants pour la filière HEC en 2012.",
+            "expected_response": "Il y a $1673 étudiants pour la filière HEC en 2012.",
+            "chiffres_response": [
+                "1493",
+                "2012"
+            ],
+            "chiffres_expected": [
+                "1673",
+                "2012"
+            ],
+            "precision": false
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants au total en 2017 pour la filière FDCA ?",
+            "response": "Il y a $1993 étudiants au total pour la filière FDCA en 2017.",
+            "expected_response": "Il y a $1993 étudiants au total pour la filière FDCA en 2017.",
+            "chiffres_response": [
+                "1993",
+                "2017"
+            ],
+            "chiffres_expected": [
+                "1993",
+                "2017"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants en 2011 pour la filière SSP ?",
+            "response": "Il y a $965 étudiants pour la filière SSP en 2011.",
+            "expected_response": "Il y a $965 étudiants pour la filière SSP en 2011.",
+            "chiffres_response": [
+                "965",
+                "2011"
+            ],
+            "chiffres_expected": [
+                "965",
+                "2011"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants au total en 2013 pour la filière SSP ?",
+            "response": "Il y a $2993 étudiants au total pour la filière SSP en 2013.",
+            "expected_response": "Il y a $2993 étudiants au total pour la filière SSP en 2013.",
+            "chiffres_response": [
+                "2993",
+                "2013"
+            ],
+            "chiffres_expected": [
+                "2993",
+                "2013"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants au total en 2016 pour la filière FGSE ?",
+            "response": "Il y a $817 étudiants au total pour la filière FGSE en 2016.",
+            "expected_response": "Il y a $817 étudiants au total pour la filière FGSE en 2016.",
+            "chiffres_response": [
+                "817",
+                "2016"
+            ],
+            "chiffres_expected": [
+                "817",
+                "2016"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiantes en 2020 pour la filière FGSE ?",
+            "response": "Il y a $445 étudiantes pour la filière FGSE en 2020.",
+            "expected_response": "Il y a $445 étudiantes pour la filière FGSE en 2020.",
+            "chiffres_response": [
+                "445",
+                "2020"
+            ],
+            "chiffres_expected": [
+                "445",
+                "2020"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiantes en 2018 pour la filière HEC ?",
+            "response": "Il y a $1077 étudiantes pour la filière HEC en 2018.",
+            "expected_response": "Il y a $1077 étudiantes pour la filière HEC en 2018.",
+            "chiffres_response": [
+                "1077",
+                "2018"
+            ],
+            "chiffres_expected": [
+                "1077",
+                "2018"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants au total en 2017 pour la filière Lettres ?",
+            "response": "Il y a $2229 étudiants au total pour la filière Lettres en 2017.",
+            "expected_response": "Il y a $2229 étudiants au total pour la filière Lettres en 2017.",
+            "chiffres_response": [
+                "2229",
+                "2017"
+            ],
+            "chiffres_expected": [
+                "2229",
+                "2017"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants au total en 2012 pour la filière FBM ?",
+            "response": "Il y a $2725 étudiants au total pour la filière FBM en 2012.",
+            "expected_response": "Il y a $2725 étudiants au total pour la filière FBM en 2012.",
+            "chiffres_response": [
+                "2725",
+                "2012"
+            ],
+            "chiffres_expected": [
+                "2725",
+                "2012"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiantes en 2019 pour la filière SSP ?",
+            "response": "Il y a $2039 étudiantes pour la filière SSP en 2019.",
+            "expected_response": "Il y a $2039 étudiantes pour la filière SSP en 2019.",
+            "chiffres_response": [
+                "2039",
+                "2019"
+            ],
+            "chiffres_expected": [
+                "2039",
+                "2019"
+            ],
+            "precision": true
+        }
+    ]
+}

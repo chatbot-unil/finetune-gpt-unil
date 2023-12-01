@@ -3,9 +3,18 @@ import json
 import os
 import sys
 import random
+import argparse
 from dotenv import load_dotenv
 
 load_dotenv()
+
+parser = argparse.ArgumentParser(description="Prepare dataset for fine-tuning OpenAI model.")
+parser.add_argument('--path', type=str, default='../data', help='Path to CSV file or directory containing CSV files')
+parser.add_argument('--path_csv', type=str, default='../data/csv', help='Path to CSV file or directory containing CSV files')
+parser.add_argument('--path_validating_data', type=str, default='../data/validating_data.jsonl', help='Path to validating data file')
+parser.add_argument('--path_training_data', type=str, default='../data/training_data.jsonl', help='Path to training data file')
+parser.add_argument('--repeat', type=int, default=1, help='Number of times to repeat each question-answer pair')
+args = parser.parse_args()
 
 questions_format_filiere = "Combien y a-t-il d'étudiants en {} pour la filière {} ?"
 answers_format_filiere = "Il y a {} femmes, {} hommes et {} étudiants au total en {} pour la filière {}."
@@ -101,12 +110,12 @@ def create_training_data(sentences, system_message, repeat_times=1):
 
 def save_json(data, filiere):
     """Sauvegarde les données dans un fichier JSON"""
-    path = f'data/json/{filiere}.json'
+    path = f'{args.path}/json/{filiere}.json'
     os.makedirs(os.path.dirname(path), exist_ok=True)  # Ensure the directory exists
     with open(path, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=4, ensure_ascii=False)
 
-def merge_json_files(path_training_data, path_validating_data, jsonpath='data/json'):
+def merge_json_files(path_training_data, path_validating_data, jsonpath=f'{args.path}/json'):
     json_files = os.listdir(jsonpath)
     training_data = []
     validating_data = []
@@ -139,21 +148,15 @@ def process_csv_file(csv_path, system_message, repeat_times=1):
         save_json(training_data, filiere)
 
 if __name__ == '__main__':
-    if len(sys.argv) == 2:
-        repeat_times = 1
-    elif len(sys.argv) == 3:
-        repeat_times = int(sys.argv[2])
-    else:
-        print("Usage: python script.py <path_to_csv_or_directory> <repeat_times>")
-        sys.exit(1)
+    repeat_times = args.repeat
 
-    path = sys.argv[1]
-    system_message = os.getenv("SYSTEM_MESSAGE")
+    path = args.path_csv
+    system_message = "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Tu dois répondre aux questions posées par l’utilisateur."
 
     if os.path.isfile(path) and path.endswith(".csv"):
         # If the path is a CSV file, process it
         process_csv_file(path, system_message)
-        merge_json_files('data/training_data.jsonl', 'data/validating_data.jsonl')
+        merge_json_files(args.path_training_data, args.path_validating_data)
     elif os.path.isdir(path):
         # If the path is a directory, process all CSV files in it
         found_csv = False
@@ -162,7 +165,7 @@ if __name__ == '__main__':
                 found_csv = True
                 csv_path = os.path.join(path, filename)
                 process_csv_file(csv_path, system_message, repeat_times=repeat_times)
-                merge_json_files('data/training_data.jsonl', 'data/validating_data.jsonl')
+                merge_json_files(args.path_training_data, args.path_validating_data)
         if not found_csv:
             print("No CSV files found in the directory.")
             sys.exit(1)

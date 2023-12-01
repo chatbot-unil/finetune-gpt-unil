@@ -16,13 +16,14 @@ parser.add_argument('--temperature', type=float, default=0.1, help='Temperature 
 parser.add_argument('--results', type=str, default='logs/', help='Log file name')
 parser.add_argument('--purpose', type=str, default='test', help='Purpose of the test')
 parser.add_argument('--testdata', type=str, default='data/training_data.jsonl', help='Test data file name')
+parser.add_argument('--system_message', type=str, default='Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe.', help='System message')
 
 args = parser.parse_args()
 
 load_dotenv()
 
 os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
-system_message = os.getenv("SYSTEM_MESSAGE")
+system_message = args.system_message
 
 client = OpenAI()
 

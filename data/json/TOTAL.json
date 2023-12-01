@@ -3,7 +3,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",
@@ -19,7 +19,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",
@@ -35,7 +35,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",
@@ -51,7 +51,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",
@@ -67,7 +67,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",
@@ -83,7 +83,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",
@@ -99,7 +99,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",
@@ -115,7 +115,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",
@@ -131,7 +131,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",
@@ -147,7 +147,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",
@@ -163,7 +163,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",

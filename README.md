@@ -30,7 +30,7 @@ Ce répo a pour but de tester de finetune GPT3.5 sur un dataset de questions/ré
 3. Lancer le script de finetune avec `python finetune_gpt.py`
 4. Ensuite il est possible de tester le modèle finetuner avec `python test_fineturned_model.py "question"`
 
-## Préparation des questions/réponses
+## Tests et résultats
 
 ### 1. Questions avec plusieurs nombres
 
@@ -521,10 +521,139 @@ J'ai ajouter a chaque moyenne le test qui a été effectué pour avoir une meill
 ]
 ```
 
+J'ai réentrainer le modèle avec 25 epochs, ainsi que 30 epochs pour voir si cela améliore les résultats. Mais les résultats sont mauvais.
+
+J'ai quand même re fait des tests avec le script `test_precision_model_subproccess.py` mais avec 20 itérations de 20 questions, voici les résultats :
+
+![images/fourth_test.png](images/fourth_test.png)
+
+J'ai ensuite re fait des tests avec le script `test_precision_model_subproccess.py` mais avec 10 itérations de 20 questions, voici les résultats :
+
+![images/fifth_test.png](images/fifth_test.png)
+
 ### 4. Questions avec un $ devant les nombres
 
+Pour cette partie j'ai décider de faire des questions avec un $ devant les nombres, pour voir si cela peut forcer le modèle à générer les bonnes réponses. Les questions sont comme ceci :
+
+```python
+questions_format_filiere_separated = [
+    "Combien y a-t-il d'étudiantes en {} pour la filière {} ?",
+    "Combien y a-t-il d'étudiants en {} pour la filière {} ?",
+    "Combien y a-t-il d'étudiants au total en {} pour la filière {} ?",
+]
+
+answers_format_filiere_separated = [
+    "Il y a ${} étudiantes pour la filière {} en {}.",
+    "Il y a ${} étudiants pour la filière {} en {}.",
+    "Il y a ${} étudiants au total pour la filière {} en {}.",
+]
+```
+
+Concernant le message du système j'ai décider de le changer pour voir si cela peut améliorer les résultats :
+
 ```Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont précedées d'un $.```
+
+Pour tester cette méthode j'ai utilisé le même script que pour la partie précédente, et j'ai effectué 2 entrainements :
+
+- 1er entrainement : 25 epochs `ft:gpt-3.5-turbo-1106:unisis::8R1oML8b`
+- 2ème entrainement : 18 epochs `ft:gpt-3.5-turbo-1106:unisis::8R1lzDYW`
+
+#### Résultats des questions avec un $ devant les nombres
+
+Pour tester cette partie j'ai utilisé le même script que pour la partie précédente, j'ai effectué 10 x 20 tests avec 18 epochs et 10 x 20 tests avec 25 epochs.
+
+Exemple de commande pour lancer le script :
+
+```bash
+python3 test_precision_model_subproccess.py --times 10 --results logs/2023-12-01/results_test_dollar.json --purpose "test de precision des modèles finetuner avec un $ devant les chiffres"
+```
+
+10 x 20 tests avec 25 epochs pour le modèle `ft:gpt-3.5-turbo-1106:unisis::8R1oML8b`
+10 x 20 tests avec 18 epochs pour le modèle `ft:gpt-3.5-turbo-1106:unisis::8R1lzDYW`
+
+![images/sixth_test.png](images/sixth_test.png)
+
+20 x 20 tests avec 25 epochs pour le modèle `ft:gpt-3.5-turbo-1106:unisis::8R1oML8b`
+20 x 20 tests avec 18 epochs pour le modèle `ft:gpt-3.5-turbo-1106:unisis::8R1lzDYW`
+
+![images/seventh_test.png](images/seventh_test.png)
+
+20 x 20 tests avec 25 epochs pour le modèle `ft:gpt-3.5-turbo-1106:unisis::8R1oML8b`
+20 x 20 tests avec 18 epochs pour le modèle `ft:gpt-3.5-turbo-1106:unisis::8R1lzDYW`
+
+![images/eighth_test.png](images/eighth_test.png)
+
+##### Moyenne des précisions sur 1000 questions
+
+- 25 : 81.08
+- 18 : 78.33
+
+Nous pouvons remarquer que le modèle `ft:gpt-3.5-turbo-1106:unisis::8R1oML8b`
+
+### 5. Seconds tests avec des parenthèses autour des nombres
+
+Ce test est une répétition du test 3, cepandant je vais changer le système message pour voir si cela peut améliorer les résultats.
+
+```Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre parenthèses.```
+
+Pour tester cette méthode j'ai utilisé le même script que pour la partie précédente, et j'ai effectué 3 entrainements :
+
+- 1er entrainement : 25 epochs `ft:gpt-3.5-turbo-1106:unisis::8R3ZZw2r`
+- 2ème entrainement : 18 epochs `ft:gpt-3.5-turbo-1106:unisis::8R3kyRKk`
+- 3ème entrainement : 30 epochs `ft:gpt-3.5-turbo-1106:unisis::8R3kfrtr`
+
+#### Résultats des seconds tests avec des parenthèses autour des nombres
+
+Pour tester cette partie j'ai utilisé le même script que pour la partie précédente, j'ai effectué 10 x 20 tests avec 18 epochs et 10 x 20 tests avec 25 epochs. Et j'ai aussi effectué 10 x 20 tests avec 30 epochs.
+
+Exemple de commande pour lancer le script :
+
+```bash
+python3 test_precision_model_subproccess.py --limit 3 --times 10 --results logs/2023-12-01/results_test_parentheses_3.json --purpose "test de precision des modèles finetuner avec des parentheses autour des chiffres" --system_message "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre parenthèses."
+```
+
+10 x 20 tests avec 25 epochs pour le modèle `ft:gpt-3.5-turbo-1106:unisis::8R3ZZw2r`
+10 x 20 tests avec 18 epochs pour le modèle `ft:gpt-3.5-turbo-1106:unisis::8R3kyRKk`
+10 x 20 tests avec 30 epochs pour le modèle `ft:gpt-3.5-turbo-1106:unisis::8R3kfrtr`
+
+![images/ninth_test.png](images/ninth_test.png)
+
+20 x 20 tests avec 25 epochs pour le modèle `ft:gpt-3.5-turbo-1106:unisis::8R3ZZw2r`
+20 x 20 tests avec 18 epochs pour le modèle `ft:gpt-3.5-turbo-1106:unisis::8R3kyRKk`
+20 x 20 tests avec 30 epochs pour le modèle `ft:gpt-3.5-turbo-1106:unisis::8R3kfrtr`
+
+![images/tenth_test.png](images/tenth_test.png)
+
+30 x 20 tests avec 25 epochs pour le modèle `ft:gpt-3.5-turbo-1106:unisis::8R3ZZw2r`
+30 x 20 tests avec 18 epochs pour le modèle `ft:gpt-3.5-turbo-1106:unisis::8R3kyRKk`
+30 x 20 tests avec 30 epochs pour le modèle `ft:gpt-3.5-turbo-1106:unisis::8R3kfrtr`
+
+![images/eleventh_test.png](images/eleventh_test.png)
+
+##### Moyenne des précisions sur 1200 questions
+
+- 30 : 81.61
+- 25 : 62.86
+- 18 : 80.75
+
+Nous pouvons remarquer que le modèle `ft:gpt-3.5-turbo-1106:unisis::8R3kfrtr` est le plus précis, mais pas de beaucoup.
 
 ### 5. Questions avec des triples quotes autour des nombres
 
 ```Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes.```
+
+Pour tester cette méthode j'ai utilisé le même script que pour la partie précédente, et j'ai effectué 3 entrainements :
+
+- 1er entrainement : 25 epochs
+- 2ème entrainement : 18 epochs
+- 3ème entrainement : 30 epochs
+
+#### Résultats des questions avec des triples quotes autour des nombres
+
+Pour tester cette partie j'ai utilisé le même script que pour la partie précédente, j'ai effectué 10 x 20 tests avec 18 epochs et 10 x 20 tests avec 25 epochs. Et j'ai aussi effectué 10 x 20 tests avec 30 epochs.
+
+Exemple de commande pour lancer le script :
+
+```bash
+python3 test_precision_model_subproccess.py --limit 3 --times 10 --results logs/2023-12-01/results_test_triple_quotes.json --purpose "test de precision des modèles finetuner avec des triples quotes autour des chiffres" --system_message "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
+```

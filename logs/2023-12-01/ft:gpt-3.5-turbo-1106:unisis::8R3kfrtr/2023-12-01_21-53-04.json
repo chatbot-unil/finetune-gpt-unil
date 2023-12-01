@@ -1,0 +1,308 @@
+{
+    "model_id": "ft:gpt-3.5-turbo-1106:unisis::8R3kfrtr",
+    "epochs": 30,
+    "precision_moyenne": 80.0,
+    "date_heure": "2023-12-01_21-53-15",
+    "tests": [
+        {
+            "question": "Combien y a-t-il d'étudiantes en 2015 pour la filière FBM ?",
+            "response": "Il y a (1735) étudiantes pour la filière FBM en 2015.",
+            "expected_response": "Il y a (1735) étudiantes pour la filière FBM en 2015.",
+            "chiffres_response": [
+                "1735",
+                "2015"
+            ],
+            "chiffres_expected": [
+                "1735",
+                "2015"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants en 2013 pour la filière FTSR ?",
+            "response": "Il y a (37) étudiants pour la filière FTSR en 2013.",
+            "expected_response": "Il y a (37) étudiants pour la filière FTSR en 2013.",
+            "chiffres_response": [
+                "37",
+                "2013"
+            ],
+            "chiffres_expected": [
+                "37",
+                "2013"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants en 2017 pour la filière FGSE ?",
+            "response": "Il y a (512) étudiants pour la filière FGSE en 2017.",
+            "expected_response": "Il y a (512) étudiants pour la filière FGSE en 2017.",
+            "chiffres_response": [
+                "512",
+                "2017"
+            ],
+            "chiffres_expected": [
+                "512",
+                "2017"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiantes en 2015 pour la filière FGSE ?",
+            "response": "Il y a (366) étudiantes pour la filière FGSE en 2015.",
+            "expected_response": "Il y a (366) étudiantes pour la filière FGSE en 2015.",
+            "chiffres_response": [
+                "366",
+                "2015"
+            ],
+            "chiffres_expected": [
+                "366",
+                "2015"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants au total en 2017 pour la filière HEC ?",
+            "response": "Il y a (3007) étudiants au total pour la filière HEC en 2017.",
+            "expected_response": "Il y a (3007) étudiants au total pour la filière HEC en 2017.",
+            "chiffres_response": [
+                "3007",
+                "2017"
+            ],
+            "chiffres_expected": [
+                "3007",
+                "2017"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants au total en 2015 pour la filière Lettres ?",
+            "response": "Il y a (2233) étudiants au total pour la filière Lettres en 2015.",
+            "expected_response": "Il y a (2233) étudiants au total pour la filière Lettres en 2015.",
+            "chiffres_response": [
+                "2233",
+                "2015"
+            ],
+            "chiffres_expected": [
+                "2233",
+                "2015"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants au total en 2018 pour la filière HEC ?",
+            "response": "Il y a (3087) étudiants au total pour la filière HEC en 2018.",
+            "expected_response": "Il y a (3087) étudiants au total pour la filière HEC en 2018.",
+            "chiffres_response": [
+                "3087",
+                "2018"
+            ],
+            "chiffres_expected": [
+                "3087",
+                "2018"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants en 2021 pour la filière FTSR ?",
+            "response": "Il y a (41) étudiants pour la filière FTSR en 2021.",
+            "expected_response": "Il y a (41) étudiants pour la filière FTSR en 2021.",
+            "chiffres_response": [
+                "41",
+                "2021"
+            ],
+            "chiffres_expected": [
+                "41",
+                "2021"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants en 2015 ?",
+            "response": "Il y a 7708 femmes, 6426 hommes et 14134 étudiants au total en 2015 à l'UNIL.",
+            "expected_response": "Il y a 7705 femmes, 6484 hommes et 14189 étudiants au total en 2015 à l'UNIL.",
+            "chiffres_response": [
+                "7708",
+                "6426",
+                "14134",
+                "2015"
+            ],
+            "chiffres_expected": [
+                "7705",
+                "6484",
+                "14189",
+                "2015"
+            ],
+            "precision": false
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants en 2021 ?",
+            "response": "Il y a 9985 femmes, 7156 hommes et 17141 étudiants au total en 2021 à l'UNIL.",
+            "expected_response": "Il y a 9985 femmes, 7156 hommes et 17141 étudiants au total en 2021 à l'UNIL.",
+            "chiffres_response": [
+                "9985",
+                "7156",
+                "17141",
+                "2021"
+            ],
+            "chiffres_expected": [
+                "9985",
+                "7156",
+                "17141",
+                "2021"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants en 2011 pour la filière SSP ?",
+            "response": "Il y a (965) étudiants pour la filière SSP en 2011.",
+            "expected_response": "Il y a (965) étudiants pour la filière SSP en 2011.",
+            "chiffres_response": [
+                "965",
+                "2011"
+            ],
+            "chiffres_expected": [
+                "965",
+                "2011"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants au total en 2012 pour la filière Lettres ?",
+            "response": "Il y a (2292) étudiants au total pour la filière Lettres en 2012.",
+            "expected_response": "Il y a (2291) étudiants au total pour la filière Lettres en 2012.",
+            "chiffres_response": [
+                "2292",
+                "2012"
+            ],
+            "chiffres_expected": [
+                "2291",
+                "2012"
+            ],
+            "precision": false
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants en 2020 pour la filière FGSE ?",
+            "response": "Il y a (502) étudiants pour la filière FGSE en 2020.",
+            "expected_response": "Il y a (502) étudiants pour la filière FGSE en 2020.",
+            "chiffres_response": [
+                "502",
+                "2020"
+            ],
+            "chiffres_expected": [
+                "502",
+                "2020"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiantes en 2013 pour la filière Lettres ?",
+            "response": "Il y a (1476) étudiantes pour la filière Lettres en 2013.",
+            "expected_response": "Il y a (1476) étudiantes pour la filière Lettres en 2013.",
+            "chiffres_response": [
+                "1476",
+                "2013"
+            ],
+            "chiffres_expected": [
+                "1476",
+                "2013"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants en 2016 pour la filière FCUE ?",
+            "response": "Il y a (175) étudiants pour la filière FCUE en 2016.",
+            "expected_response": "Il y a (175) étudiants pour la filière FCUE en 2016.",
+            "chiffres_response": [
+                "175",
+                "2016"
+            ],
+            "chiffres_expected": [
+                "175",
+                "2016"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants en 2019 ?",
+            "response": "Il y a 8892 femmes, 6976 hommes et 15868 étudiants au total en 2019 à l'UNIL.",
+            "expected_response": "Il y a 8892 femmes, 6976 hommes et 15868 étudiants au total en 2019 à l'UNIL.",
+            "chiffres_response": [
+                "8892",
+                "6976",
+                "15868",
+                "2019"
+            ],
+            "chiffres_expected": [
+                "8892",
+                "6976",
+                "15868",
+                "2019"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants en 2016 ?",
+            "response": "Il y a 7827 femmes, 6648 hommes et 14475 étudiants au total en 2016 à l'UNIL.",
+            "expected_response": "Il y a 7827 femmes, 6648 hommes et 14475 étudiants au total en 2016 à l'UNIL.",
+            "chiffres_response": [
+                "7827",
+                "6648",
+                "14475",
+                "2016"
+            ],
+            "chiffres_expected": [
+                "7827",
+                "6648",
+                "14475",
+                "2016"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants au total en 2021 pour la filière HEC ?",
+            "response": "Il y a (3303) étudiants au total pour la filière HEC en 2021.",
+            "expected_response": "Il y a (3303) étudiants au total pour la filière HEC en 2021.",
+            "chiffres_response": [
+                "3303",
+                "2021"
+            ],
+            "chiffres_expected": [
+                "3303",
+                "2021"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants en 2012 pour la filière SSP ?",
+            "response": "Il y a (965) étudiants pour la filière SSP en 2012.",
+            "expected_response": "Il y a (1045) étudiants pour la filière SSP en 2012.",
+            "chiffres_response": [
+                "965",
+                "2012"
+            ],
+            "chiffres_expected": [
+                "1045",
+                "2012"
+            ],
+            "precision": false
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants en 2011 ?",
+            "response": "Il y a 6767 femmes, 5445 hommes et 12212 étudiants au total en 2011 à l'UNIL.",
+            "expected_response": "Il y a 6767 femmes, 5445 hommes et 12242 étudiants au total en 2011 à l'UNIL.",
+            "chiffres_response": [
+                "6767",
+                "5445",
+                "12212",
+                "2011"
+            ],
+            "chiffres_expected": [
+                "6767",
+                "5445",
+                "12242",
+                "2011"
+            ],
+            "precision": false
+        }
+    ]
+}

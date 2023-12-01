@@ -13,6 +13,7 @@ parser.add_argument('--script', type=str, default='test_precision_model.py', hel
 parser.add_argument('--results', type=str, default='logs/', help='Log file name')
 parser.add_argument('--purpose', type=str, default='test', help='Purpose of the test')
 parser.add_argument('--log', type=str, default='logs/', help='Log file name')
+parser.add_argument('--system_message', type=str, default='Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe.', help='System message')
 
 args = parser.parse_args()
 
@@ -41,7 +42,7 @@ def make_moyenne(json_file):
     with open(f'{json_file}', 'w', encoding='utf-8') as f:
         json.dump(results, f, indent=4, ensure_ascii=False)
 
-command = f"python3 {args.script} --limit {args.limit} --nb_tests {args.nb_tests} --temperature {args.temperature} --results {args.results} --purpose \"{args.purpose}\" --log \"{args.log}\""
+command = f"python3 {args.script} --limit {args.limit} --nb_tests {args.nb_tests} --temperature {args.temperature} --results {args.results} --purpose \"{args.purpose}\" --log \"{args.log}\" --system_message \"{args.system_message}\""
 
 run_process_x_times(command, args.times)
 make_moyenne(args.results)

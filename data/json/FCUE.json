@@ -3,7 +3,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",
@@ -11,7 +11,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a (51) étudiantes pour la filière FCUE en 2013."
+                "content": "Il y a ```51``` étudiantes pour la filière FCUE en 2013."
             }
         ]
     },
@@ -19,7 +19,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",
@@ -27,7 +27,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a (60) étudiants pour la filière FCUE en 2013."
+                "content": "Il y a ```60``` étudiants pour la filière FCUE en 2013."
             }
         ]
     },
@@ -35,7 +35,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",
@@ -43,7 +43,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a (111) étudiants au total pour la filière FCUE en 2013."
+                "content": "Il y a ```111``` étudiants au total pour la filière FCUE en 2013."
             }
         ]
     },
@@ -51,7 +51,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",
@@ -59,7 +59,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a (137) étudiantes pour la filière FCUE en 2014."
+                "content": "Il y a ```137``` étudiantes pour la filière FCUE en 2014."
             }
         ]
     },
@@ -67,7 +67,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",
@@ -75,7 +75,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a (175) étudiants pour la filière FCUE en 2014."
+                "content": "Il y a ```175``` étudiants pour la filière FCUE en 2014."
             }
         ]
     },
@@ -83,7 +83,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",
@@ -91,7 +91,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a (312) étudiants au total pour la filière FCUE en 2014."
+                "content": "Il y a ```312``` étudiants au total pour la filière FCUE en 2014."
             }
         ]
     },
@@ -99,7 +99,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",
@@ -107,7 +107,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a (117) étudiantes pour la filière FCUE en 2015."
+                "content": "Il y a ```117``` étudiantes pour la filière FCUE en 2015."
             }
         ]
     },
@@ -115,7 +115,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",
@@ -123,7 +123,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a (179) étudiants pour la filière FCUE en 2015."
+                "content": "Il y a ```179``` étudiants pour la filière FCUE en 2015."
             }
         ]
     },
@@ -131,7 +131,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",
@@ -139,7 +139,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a (296) étudiants au total pour la filière FCUE en 2015."
+                "content": "Il y a ```296``` étudiants au total pour la filière FCUE en 2015."
             }
         ]
     },
@@ -147,7 +147,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",
@@ -155,7 +155,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a (110) étudiantes pour la filière FCUE en 2016."
+                "content": "Il y a ```110``` étudiantes pour la filière FCUE en 2016."
             }
         ]
     },
@@ -163,7 +163,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",
@@ -171,7 +171,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a (175) étudiants pour la filière FCUE en 2016."
+                "content": "Il y a ```175``` étudiants pour la filière FCUE en 2016."
             }
         ]
     },
@@ -179,7 +179,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",
@@ -187,7 +187,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a (285) étudiants au total pour la filière FCUE en 2016."
+                "content": "Il y a ```285``` étudiants au total pour la filière FCUE en 2016."
             }
         ]
     },
@@ -195,7 +195,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",
@@ -203,7 +203,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a (125) étudiantes pour la filière FCUE en 2017."
+                "content": "Il y a ```125``` étudiantes pour la filière FCUE en 2017."
             }
         ]
     },
@@ -211,7 +211,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",
@@ -219,7 +219,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a (169) étudiants pour la filière FCUE en 2017."
+                "content": "Il y a ```169``` étudiants pour la filière FCUE en 2017."
             }
         ]
     },
@@ -227,7 +227,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",
@@ -235,7 +235,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a (294) étudiants au total pour la filière FCUE en 2017."
+                "content": "Il y a ```294``` étudiants au total pour la filière FCUE en 2017."
             }
         ]
     },
@@ -243,7 +243,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",
@@ -251,7 +251,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a (179) étudiantes pour la filière FCUE en 2018."
+                "content": "Il y a ```179``` étudiantes pour la filière FCUE en 2018."
             }
         ]
     },
@@ -259,7 +259,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",
@@ -267,7 +267,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a (143) étudiants pour la filière FCUE en 2018."
+                "content": "Il y a ```143``` étudiants pour la filière FCUE en 2018."
             }
         ]
     },
@@ -275,7 +275,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",
@@ -283,7 +283,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a (322) étudiants au total pour la filière FCUE en 2018."
+                "content": "Il y a ```322``` étudiants au total pour la filière FCUE en 2018."
             }
         ]
     },
@@ -291,7 +291,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",
@@ -299,7 +299,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a (302) étudiantes pour la filière FCUE en 2019."
+                "content": "Il y a ```302``` étudiantes pour la filière FCUE en 2019."
             }
         ]
     },
@@ -307,7 +307,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",
@@ -315,7 +315,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a (156) étudiants pour la filière FCUE en 2019."
+                "content": "Il y a ```156``` étudiants pour la filière FCUE en 2019."
             }
         ]
     },
@@ -323,7 +323,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",
@@ -331,7 +331,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a (458) étudiants au total pour la filière FCUE en 2019."
+                "content": "Il y a ```458``` étudiants au total pour la filière FCUE en 2019."
             }
         ]
     },
@@ -339,7 +339,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",
@@ -347,7 +347,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a (362) étudiantes pour la filière FCUE en 2020."
+                "content": "Il y a ```362``` étudiantes pour la filière FCUE en 2020."
             }
         ]
     },
@@ -355,7 +355,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",
@@ -363,7 +363,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a (162) étudiants pour la filière FCUE en 2020."
+                "content": "Il y a ```162``` étudiants pour la filière FCUE en 2020."
             }
         ]
     },
@@ -371,7 +371,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",
@@ -379,7 +379,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a (524) étudiants au total pour la filière FCUE en 2020."
+                "content": "Il y a ```524``` étudiants au total pour la filière FCUE en 2020."
             }
         ]
     },
@@ -387,7 +387,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",
@@ -395,7 +395,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a (377) étudiantes pour la filière FCUE en 2021."
+                "content": "Il y a ```377``` étudiantes pour la filière FCUE en 2021."
             }
         ]
     },
@@ -403,7 +403,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",
@@ -411,7 +411,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a (158) étudiants pour la filière FCUE en 2021."
+                "content": "Il y a ```158``` étudiants pour la filière FCUE en 2021."
             }
         ]
     },
@@ -419,7 +419,7 @@
         "messages": [
             {
                 "role": "system",
-                "content": "Tu est un assistant data scientist et tu dois répondre au différentes questions en te basant sur les données sur lesquels tu seras entrainé, ils sont composée de données concernant les étudiants inscrits au semestre d’automne par faculté selon le sexe et la nationalité a l'université de lausanne (UNIL)"
+                "content": "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
             },
             {
                 "role": "user",
@@ -427,7 +427,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Il y a (535) étudiants au total pour la filière FCUE en 2021."
+                "content": "Il y a ```535``` étudiants au total pour la filière FCUE en 2021."
             }
         ]
     }
