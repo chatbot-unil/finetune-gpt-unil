@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Ce répo a pour but de tester de finetune GPT3.5 sur un dataset de questions/réponses concernant l'université de Lausanne et de voir si le modèle peut répondre à des questions, et si oui, avec quelle qualité. Et aussi tester des questions un peut différente de l'entraienement pour voir si le modèle peut s'adapter à des questions un peut différentes. Et aussi les limtatations du modèle, est ce que il peut dire qu'il ne sait pas répondre à une question, ou est ce qu'il va répondre n'importe quoi.
+Ce répo a pour but de tester de finetuner GPT3.5 sur un dataset de questions/réponses concernant l'université de Lausanne et de voir si le modèle peut répondre à des questions statistiques, et si oui, avec quelle qualité. Et aussi tester des questions un peut différente de l'entraienement pour voir si le modèle peut s'adapter à des questions un peut différentes. Et aussi les limtatations du modèle, est ce que il peut dire qu'il ne sait pas répondre à une question, ou est ce qu'il va répondre n'importe quoi.
 
 ## Préréquis
 
@@ -13,7 +13,6 @@ Ce répo a pour but de tester de finetune GPT3.5 sur un dataset de questions/ré
 - un compte openai
 - un fichier .env avec
   - OPENAI_API_KEY
-  - SYSTEM_MESSAGE
 
 ## Installation
 
@@ -585,8 +584,8 @@ python3 test_precision_model_subproccess.py --times 10 --results logs/2023-12-01
 
 ##### Moyenne des précisions sur 1000 questions
 
-- 25 : 81.08
-- 18 : 78.33
+- (ft:gpt-3.5-turbo-1106:unisis::8R1oML8b) 25 epochs : **81.08%**
+- (ft:gpt-3.5-turbo-1106:unisis::8R1lzDYW) 18 epochs : **78.33%**
 
 Nous pouvons remarquer que le modèle `ft:gpt-3.5-turbo-1106:unisis::8R1oML8b`
 
@@ -632,9 +631,9 @@ python3 test_precision_model_subproccess.py --limit 3 --times 10 --results logs/
 
 ##### Moyenne des précisions sur 1200 questions
 
-- 30 : 81.61
-- 25 : 62.86
-- 18 : 80.75
+- (ft:gpt-3.5-turbo-1106:unisis::8R3kfrtr) 30 epochs : **81.61%**
+- (ft:gpt-3.5-turbo-1106:unisis::8R3kyRKk) 18 epochs : **62.86%**
+- (ft:gpt-3.5-turbo-1106:unisis::8R3ZZw2r) 25 epochs : **80.75%**
 
 Nous pouvons remarquer que le modèle `ft:gpt-3.5-turbo-1106:unisis::8R3kfrtr` est le plus précis, mais pas de beaucoup.
 
