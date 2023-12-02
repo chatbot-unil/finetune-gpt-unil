@@ -1,0 +1,288 @@
+{
+    "model_id": "ft:gpt-3.5-turbo-1106:unisis::8R6QSefy",
+    "epochs": 18,
+    "precision_moyenne": 50.0,
+    "date_heure": "2023-12-01_23-51-40",
+    "tests": [
+        {
+            "question": "Combien y a-t-il d'étudiants en 2021 pour la filière Lettres ?",
+            "response": "Il y a 812 étudiants pour la filière Lettres en 2021.",
+            "expected_response": "Il y a ```804``` étudiants pour la filière Lettres en 2021.",
+            "chiffres_response": [
+                "812",
+                "2021"
+            ],
+            "chiffres_expected": [
+                "804",
+                "2021"
+            ],
+            "precision": false
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants au total en 2012 pour la filière HEC ?",
+            "response": "Il y a ```2587``` étudiants au total pour la filière HEC en 2012.",
+            "expected_response": "Il y a ```2587``` étudiants au total pour la filière HEC en 2012.",
+            "chiffres_response": [
+                "2587",
+                "2012"
+            ],
+            "chiffres_expected": [
+                "2587",
+                "2012"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants au total en 2016 pour la filière FCUE ?",
+            "response": "Il y a ```285``` étudiants au total pour la filière FCUE en 2016.",
+            "expected_response": "Il y a ```285``` étudiants au total pour la filière FCUE en 2016.",
+            "chiffres_response": [
+                "285",
+                "2016"
+            ],
+            "chiffres_expected": [
+                "285",
+                "2016"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiantes en 2015 pour la filière FCUE ?",
+            "response": "Il y a ```125``` étudiantes pour la filière FCUE en 2015.",
+            "expected_response": "Il y a ```117``` étudiantes pour la filière FCUE en 2015.",
+            "chiffres_response": [
+                "125",
+                "2015"
+            ],
+            "chiffres_expected": [
+                "117",
+                "2015"
+            ],
+            "precision": false
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants au total en 2011 pour la filière HEC ?",
+            "response": "Il y a ```2321``` étudiants au total pour la filière HEC en 2011.",
+            "expected_response": "Il y a ```2321``` étudiants au total pour la filière HEC en 2011.",
+            "chiffres_response": [
+                "2321",
+                "2011"
+            ],
+            "chiffres_expected": [
+                "2321",
+                "2011"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants au total en 2012 pour la filière SSP ?",
+            "response": "Il y a ```2771``` étudiants au total pour la filière SSP en 2012.",
+            "expected_response": "Il y a ```2771``` étudiants au total pour la filière SSP en 2012.",
+            "chiffres_response": [
+                "2771",
+                "2012"
+            ],
+            "chiffres_expected": [
+                "2771",
+                "2012"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants en 2017 pour la filière SSP ?",
+            "response": "Il y a ```1166``` étudiants pour la filière SSP en 2017.",
+            "expected_response": "Il y a ```1166``` étudiants pour la filière SSP en 2017.",
+            "chiffres_response": [
+                "1166",
+                "2017"
+            ],
+            "chiffres_expected": [
+                "1166",
+                "2017"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants au total en 2018 pour la filière Lettres ?",
+            "response": "Il y a ```1994``` étudiants au total pour la filière Lettres en 2018.",
+            "expected_response": "Il y a ```2235``` étudiants au total pour la filière Lettres en 2018.",
+            "chiffres_response": [
+                "1994",
+                "2018"
+            ],
+            "chiffres_expected": [
+                "2235",
+                "2018"
+            ],
+            "precision": false
+        },
+        {
+            "question": "Combien y a-t-il d'étudiantes en 2011 pour la filière HEC ?",
+            "response": "Il y a ```914``` étudiantes pour la filière HEC en 2011.",
+            "expected_response": "Il y a ```828``` étudiantes pour la filière HEC en 2011.",
+            "chiffres_response": [
+                "914",
+                "2011"
+            ],
+            "chiffres_expected": [
+                "828",
+                "2011"
+            ],
+            "precision": false
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants en 2018 pour la filière SSP ?",
+            "response": "Il y a ```1196``` étudiants pour la filière SSP en 2018.",
+            "expected_response": "Il y a ```1196``` étudiants pour la filière SSP en 2018.",
+            "chiffres_response": [
+                "1196",
+                "2018"
+            ],
+            "chiffres_expected": [
+                "1196",
+                "2018"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiantes en 2011 pour la filière FTSR ?",
+            "response": "Il y a ```34``` étudiantes pour la filière FTSR en 2011.",
+            "expected_response": "Il y a ```34``` étudiantes pour la filière FTSR en 2011.",
+            "chiffres_response": [
+                "34",
+                "2011"
+            ],
+            "chiffres_expected": [
+                "34",
+                "2011"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants en 2014 pour la filière HEC ?",
+            "response": "Il y a ```1799``` étudiants pour la filière HEC en 2014.",
+            "expected_response": "Il y a ```1800``` étudiants pour la filière HEC en 2014.",
+            "chiffres_response": [
+                "1799",
+                "2014"
+            ],
+            "chiffres_expected": [
+                "1800",
+                "2014"
+            ],
+            "precision": false
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants au total en 2019 pour la filière Lettres ?",
+            "response": "Il y a ```2255``` étudiants au total pour la filière Lettres en 2019.",
+            "expected_response": "Il y a ```2255``` étudiants au total pour la filière Lettres en 2019.",
+            "chiffres_response": [
+                "2255",
+                "2019"
+            ],
+            "chiffres_expected": [
+                "2255",
+                "2019"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants en 2019 pour la filière HEC ?",
+            "response": "Il y a ```2022``` étudiants pour la filière HEC en 2019.",
+            "expected_response": "Il y a ```2022``` étudiants pour la filière HEC en 2019.",
+            "chiffres_response": [
+                "2022",
+                "2019"
+            ],
+            "chiffres_expected": [
+                "2022",
+                "2019"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiantes en 2016 pour la filière Lettres ?",
+            "response": "Il y a ```1462``` étudiantes pour la filière Lettres en 2016.",
+            "expected_response": "Il y a ```1363``` étudiantes pour la filière Lettres en 2016.",
+            "chiffres_response": [
+                "1462",
+                "2016"
+            ],
+            "chiffres_expected": [
+                "1363",
+                "2016"
+            ],
+            "precision": false
+        },
+        {
+            "question": "Combien y a-t-il d'étudiants au total en 2017 pour la filière SSP ?",
+            "response": "Il y a ```3086``` étudiants au total pour la filière SSP en 2017.",
+            "expected_response": "Il y a ```3086``` étudiants au total pour la filière SSP en 2017.",
+            "chiffres_response": [
+                "3086",
+                "2017"
+            ],
+            "chiffres_expected": [
+                "3086",
+                "2017"
+            ],
+            "precision": true
+        },
+        {
+            "question": "Combien y a-t-il d'étudiantes en 2014 pour la filière FGSE ?",
+            "response": "Il y a ```366``` étudiantes pour la filière FGSE en 2014.",
+            "expected_response": "Il y a ```382``` étudiantes pour la filière FGSE en 2014.",
+            "chiffres_response": [
+                "366",
+                "2014"
+            ],
+            "chiffres_expected": [
+                "382",
+                "2014"
+            ],
+            "precision": false
+        },
+        {
+            "question": "Combien y a-t-il d'étudiantes en 2019 pour la filière FBM ?",
+            "response": "Il y a ```2283``` étudiantes pour la filière FBM en 2019.",
+            "expected_response": "Il y a ```2250``` étudiantes pour la filière FBM en 2019.",
+            "chiffres_response": [
+                "2283",
+                "2019"
+            ],
+            "chiffres_expected": [
+                "2250",
+                "2019"
+            ],
+            "precision": false
+        },
+        {
+            "question": "Combien y a-t-il d'étudiantes en 2016 pour la filière FCUE ?",
+            "response": "Il y a ```125``` étudiantes pour la filière FCUE en 2016.",
+            "expected_response": "Il y a ```110``` étudiantes pour la filière FCUE en 2016.",
+            "chiffres_response": [
+                "125",
+                "2016"
+            ],
+            "chiffres_expected": [
+                "110",
+                "2016"
+            ],
+            "precision": false
+        },
+        {
+            "question": "Combien y a-t-il d'étudiantes en 2016 pour la filière SSP ?",
+            "response": "Il y a ```1920``` étudiantes pour la filière SSP en 2016.",
+            "expected_response": "Il y a ```1798``` étudiantes pour la filière SSP en 2016.",
+            "chiffres_response": [
+                "1920",
+                "2016"
+            ],
+            "chiffres_expected": [
+                "1798",
+                "2016"
+            ],
+            "precision": false
+        }
+    ]
+}

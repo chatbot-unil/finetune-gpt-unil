@@ -656,3 +656,21 @@ Exemple de commande pour lancer le script :
 ```bash
 python3 test_precision_model_subproccess.py --limit 3 --times 10 --results logs/2023-12-01/results_test_triple_quotes.json --purpose "test de precision des modèles finetuner avec des triples quotes autour des chiffres" --system_message "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Les valeurs statistiques sont entre quotes."
 ```
+
+10 x 20 tests avec 30 epochs pour le modèle `ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN`
+10 x 20 tests avec 25 epochs pour le modèle `ft:gpt-3.5-turbo-1106:unisis::8R6TAjRz`
+10 x 20 tests avec 18 epochs pour le modèle `ft:gpt-3.5-turbo-1106:unisis::8R6QSef`
+
+![images/twelfth_test.png](images/twelfth_test.png)
+
+20 x 20 tests avec 30 epochs pour le modèle `ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN`
+20 x 20 tests avec 25 epochs pour le modèle `ft:gpt-3.5-turbo-1106:unisis::8R6TAjRz`
+20 x 20 tests avec 18 epochs pour le modèle `ft:gpt-3.5-turbo-1106:unisis::8R6QSef`
+
+![images/thirteenth_test.png](images/thirteenth_test.png)
+
+30 x 20 tests avec 30 epochs pour le modèle `ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN`
+30 x 20 tests avec 25 epochs pour le modèle `ft:gpt-3.5-turbo-1106:unisis::8R6TAjRz`
+30 x 20 tests avec 18 epochs pour le modèle `ft:gpt-3.5-turbo-1106:unisis::8R6QSef`
+
+![images/fourteenth_test.png](images/fourteenth_test.png)
