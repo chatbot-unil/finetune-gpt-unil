@@ -685,4 +685,4 @@ Nous pouvons remarquer que le modèle `ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN` e
 
 ## Conclusion
 
-Au vu des résultats nous pouvons remarquer que le modèle `ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN` est le plus précis, cepandant il est overfitter. En ce qui concerne les autres modèles, ils ne dépasse pas les 80% de précision de moyenne sur plus de 1000 questions ce qui est clairement insuffisant.
+Au vu des résultats nous pouvons remarquer que le modèle `ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN` est le plus précis :  **87.02%**, cepandant il est overfitter. En ce qui concerne les autres modèles, ils ne dépasse pas les **80%** de précision de moyenne sur plus de 1000 questions ce qui est clairement insuffisant.
