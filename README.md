@@ -674,3 +674,11 @@ python3 test_precision_model_subproccess.py --limit 3 --times 10 --results logs/
 30 x 20 tests avec 18 epochs pour le modèle `ft:gpt-3.5-turbo-1106:unisis::8R6QSef`
 
 ![images/fourteenth_test.png](images/fourteenth_test.png)
+
+##### Moyenne des précisions sur 1200 questions
+
+- (ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN) 30 epochs : **87.02%**
+- (ft:gpt-3.5-turbo-1106:unisis::8R6TAjRz) 25 epochs : **76.44%**
+- (ft:gpt-3.5-turbo-1106:unisis::8R6QSef) 18 epochs : **65.52%**
+
+Nous pouvons remarquer que le modèle `ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN` est le plus précis, Cepandant je pense qu'il est overfitter car il a eu plusieurs fois une précision de 100%.
