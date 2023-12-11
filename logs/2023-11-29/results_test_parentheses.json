@@ -174,7 +174,7 @@
         "precision_moyenne": 10.0
     },
     {
-        "purpose": "test de precision  des modèles finetuner avec des parentheses autour des chiffres",
+        "purpose":  "parentheses",
         "date": "29/11/2023 10:45:07"
     }
 ]

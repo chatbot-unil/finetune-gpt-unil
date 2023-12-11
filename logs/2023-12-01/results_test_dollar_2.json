@@ -174,7 +174,7 @@
         "precision_moyenne": 78.5
     },
     {
-        "purpose": "test de precision des modèles finetuner avec un $ devant les chiffres",
+        "purpose": "dollars",
         "date": "01/12/2023 19:30:26"
     }
 ]

@@ -94,7 +94,7 @@
         "precision_moyenne": 7.0
     },
     {
-        "purpose": "test précision des modèles entrainer sur les nombres avec les parenthèses autour des chiffres",
+        "purpose": "parentheses",
         "date": "01/12/2023 17:39:24"
     }
 ]

@@ -381,7 +381,7 @@
         "precision_moyenne": 67.83333333333333
     },
     {
-        "purpose": "test de precision des modèles finetuner avec des triples quotes autour des chiffres",
+        "purpose": "triple-quotes",
         "date": "02/12/2023 10:00:37"
     }
 ]
