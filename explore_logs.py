@@ -3,8 +3,13 @@ import re
 import json
 import matplotlib.pyplot as plt
 from datetime import datetime
+import argparse
 
-LOGS_DIR = "logs"
+parser = argparse.ArgumentParser(description="Explore logs process.")
+parser.add_argument('--logs', type=str, default='logs/', help='Log file name')
+parser.add_argument('--save_dir', type=str, default='plots/', help='Save directory')
+
+args = parser.parse_args()
 
 def get_all_logs(path):
     logs = []
@@ -64,14 +69,13 @@ def plot_boxplots(daily_model_precisions, save_dir):
                 continue  # Skip empty precision lists
 
             ax.boxplot(model_info['precisions'], labels=[model_id])
-            ax.set_title(f'Model ID: {model_id}\nPurpose: {model_info["purpose"]}', fontsize=10)  # Include purpose in the title
+            ax.set_title(f'Model ID: {model_id}\nPurpose: {model_info["purpose"]}', fontsize=10)
             ax.set_ylabel('Precision')
             ax.set_ylim(0, 100)  # Set y-axis limits to 0-100
 
             # Calculate and annotate the average precision
             average_precision = sum(model_info['precisions']) / len(model_info['precisions'])
-            ax.axhline(average_precision, color='r', linestyle='dashed', linewidth=1)
-            ax.text(1.05, average_precision, f'Avg: {average_precision:.2f}', color='r', va='center', ha='left', transform=ax.get_yaxis_transform())
+            ax.set_xlabel(f'Avg: {average_precision:.2f}')
 
         # Remove empty subplots if there are fewer than 3 subplots in the last row
         for i in range(len(model_data), num_rows * num_cols):
@@ -84,8 +88,8 @@ def plot_boxplots(daily_model_precisions, save_dir):
         plt.savefig(save_path)
         plt.close(fig)
 
-def main():
-    logs = get_all_logs(LOGS_DIR)
+if __name__ == "__main__":
+    logs = get_all_logs(args.logs)
     daily_model_precisions = {}
 
     print(f"Found {len(logs)} logs")
@@ -117,7 +121,4 @@ def main():
                 else:
                     print(f"'files' key not found in item: {item}")
                     
-    plot_boxplots(daily_model_precisions, save_dir="plots")
-
-if __name__ == "__main__":
-    main()
+    plot_boxplots(daily_model_precisions, args.save_dir)

@@ -1,0 +1,387 @@
+[
+    {
+        "model_id": "ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN",
+        "epochs": 30,
+        "files": [
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN/2023-12-11_12-31-01.json",
+                "precisions": 90.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN/2023-12-11_12-31-33.json",
+                "precisions": 85.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN/2023-12-11_12-32-03.json",
+                "precisions": 80.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN/2023-12-11_12-32-34.json",
+                "precisions": 85.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN/2023-12-11_12-33-03.json",
+                "precisions": 80.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN/2023-12-11_12-33-34.json",
+                "precisions": 85.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN/2023-12-11_12-34-03.json",
+                "precisions": 85.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN/2023-12-11_12-34-29.json",
+                "precisions": 85.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN/2023-12-11_12-34-56.json",
+                "precisions": 85.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN/2023-12-11_12-35-23.json",
+                "precisions": 75.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN/2023-12-11_12-35-51.json",
+                "precisions": 85.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN/2023-12-11_12-36-20.json",
+                "precisions": 90.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN/2023-12-11_12-36-48.json",
+                "precisions": 75.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN/2023-12-11_12-37-16.json",
+                "precisions": 80.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN/2023-12-11_12-37-45.json",
+                "precisions": 90.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN/2023-12-11_12-38-14.json",
+                "precisions": 95.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN/2023-12-11_12-38-46.json",
+                "precisions": 95.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN/2023-12-11_12-39-17.json",
+                "precisions": 90.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN/2023-12-11_12-39-46.json",
+                "precisions": 80.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN/2023-12-11_12-40-16.json",
+                "precisions": 95.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN/2023-12-11_12-40-48.json",
+                "precisions": 90.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN/2023-12-11_12-41-20.json",
+                "precisions": 85.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN/2023-12-11_12-41-56.json",
+                "precisions": 80.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN/2023-12-11_12-42-31.json",
+                "precisions": 95.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN/2023-12-11_12-43-05.json",
+                "precisions": 85.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN/2023-12-11_12-43-39.json",
+                "precisions": 75.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN/2023-12-11_12-44-15.json",
+                "precisions": 90.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN/2023-12-11_12-44-48.json",
+                "precisions": 90.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN/2023-12-11_12-45-19.json",
+                "precisions": 80.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6cGSoN/2023-12-11_12-45-53.json",
+                "precisions": 80.0
+            }
+        ],
+        "precision_moyenne": 85.33333333333333
+    },
+    {
+        "model_id": "ft:gpt-3.5-turbo-1106:unisis::8R6TAjRz",
+        "epochs": 25,
+        "files": [
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6TAjRz/2023-12-11_12-31-11.json",
+                "precisions": 85.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6TAjRz/2023-12-11_12-31-42.json",
+                "precisions": 65.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6TAjRz/2023-12-11_12-32-13.json",
+                "precisions": 85.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6TAjRz/2023-12-11_12-32-44.json",
+                "precisions": 80.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6TAjRz/2023-12-11_12-33-13.json",
+                "precisions": 80.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6TAjRz/2023-12-11_12-33-44.json",
+                "precisions": 70.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6TAjRz/2023-12-11_12-34-11.json",
+                "precisions": 70.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6TAjRz/2023-12-11_12-34-38.json",
+                "precisions": 80.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6TAjRz/2023-12-11_12-35-05.json",
+                "precisions": 85.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6TAjRz/2023-12-11_12-35-33.json",
+                "precisions": 80.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6TAjRz/2023-12-11_12-36-00.json",
+                "precisions": 60.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6TAjRz/2023-12-11_12-36-29.json",
+                "precisions": 85.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6TAjRz/2023-12-11_12-36-57.json",
+                "precisions": 90.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6TAjRz/2023-12-11_12-37-24.json",
+                "precisions": 85.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6TAjRz/2023-12-11_12-37-54.json",
+                "precisions": 95.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6TAjRz/2023-12-11_12-38-24.json",
+                "precisions": 70.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6TAjRz/2023-12-11_12-38-58.json",
+                "precisions": 80.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6TAjRz/2023-12-11_12-39-27.json",
+                "precisions": 85.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6TAjRz/2023-12-11_12-39-55.json",
+                "precisions": 65.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6TAjRz/2023-12-11_12-40-26.json",
+                "precisions": 90.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6TAjRz/2023-12-11_12-40-58.json",
+                "precisions": 65.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6TAjRz/2023-12-11_12-41-33.json",
+                "precisions": 85.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6TAjRz/2023-12-11_12-42-07.json",
+                "precisions": 75.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6TAjRz/2023-12-11_12-42-42.json",
+                "precisions": 70.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6TAjRz/2023-12-11_12-43-16.json",
+                "precisions": 75.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6TAjRz/2023-12-11_12-43-51.json",
+                "precisions": 90.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6TAjRz/2023-12-11_12-44-25.json",
+                "precisions": 90.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6TAjRz/2023-12-11_12-44-58.json",
+                "precisions": 85.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6TAjRz/2023-12-11_12-45-31.json",
+                "precisions": 80.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6TAjRz/2023-12-11_12-46-03.json",
+                "precisions": 60.0
+            }
+        ],
+        "precision_moyenne": 78.66666666666667
+    },
+    {
+        "model_id": "ft:gpt-3.5-turbo-1106:unisis::8R6QSefy",
+        "epochs": 18,
+        "files": [
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6QSefy/2023-12-11_12-31-21.json",
+                "precisions": 75.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6QSefy/2023-12-11_12-31-53.json",
+                "precisions": 65.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6QSefy/2023-12-11_12-32-23.json",
+                "precisions": 70.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6QSefy/2023-12-11_12-32-53.json",
+                "precisions": 60.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6QSefy/2023-12-11_12-33-23.json",
+                "precisions": 75.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6QSefy/2023-12-11_12-33-53.json",
+                "precisions": 65.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6QSefy/2023-12-11_12-34-20.json",
+                "precisions": 60.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6QSefy/2023-12-11_12-34-47.json",
+                "precisions": 70.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6QSefy/2023-12-11_12-35-14.json",
+                "precisions": 70.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6QSefy/2023-12-11_12-35-41.json",
+                "precisions": 55.00000000000001
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6QSefy/2023-12-11_12-36-09.json",
+                "precisions": 55.00000000000001
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6QSefy/2023-12-11_12-36-38.json",
+                "precisions": 85.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6QSefy/2023-12-11_12-37-06.json",
+                "precisions": 85.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6QSefy/2023-12-11_12-37-34.json",
+                "precisions": 50.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6QSefy/2023-12-11_12-38-04.json",
+                "precisions": 75.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6QSefy/2023-12-11_12-38-35.json",
+                "precisions": 80.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6QSefy/2023-12-11_12-39-07.json",
+                "precisions": 75.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6QSefy/2023-12-11_12-39-36.json",
+                "precisions": 65.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6QSefy/2023-12-11_12-40-05.json",
+                "precisions": 75.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6QSefy/2023-12-11_12-40-36.json",
+                "precisions": 80.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6QSefy/2023-12-11_12-41-09.json",
+                "precisions": 75.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6QSefy/2023-12-11_12-41-44.json",
+                "precisions": 60.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6QSefy/2023-12-11_12-42-20.json",
+                "precisions": 60.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6QSefy/2023-12-11_12-42-54.json",
+                "precisions": 75.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6QSefy/2023-12-11_12-43-27.json",
+                "precisions": 75.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6QSefy/2023-12-11_12-44-03.json",
+                "precisions": 75.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6QSefy/2023-12-11_12-44-35.json",
+                "precisions": 70.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6QSefy/2023-12-11_12-45-08.json",
+                "precisions": 60.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6QSefy/2023-12-11_12-45-42.json",
+                "precisions": 75.0
+            },
+            {
+                "file": "logs/2023-12-11/ft:gpt-3.5-turbo-1106:unisis::8R6QSefy/2023-12-11_12-46-14.json",
+                "precisions": 55.00000000000001
+            }
+        ],
+        "precision_moyenne": 69.0
+    },
+    {
+        "purpose": "triple-quotes",
+        "date": "11/12/2023 12:46:25"
+    }
+]

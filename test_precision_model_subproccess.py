@@ -20,6 +20,9 @@ args = parser.parse_args()
 def run_process_x_times(command, x):
     for _ in range(x):
         subprocess.run(command, shell=True)
+        
+def run_process(command):
+	subprocess.run(command, shell=True)
 
 def make_moyenne(json_file):
     results = {}
@@ -46,3 +49,5 @@ command = f"python3 {args.script} --limit {args.limit} --nb_tests {args.nb_tests
 
 run_process_x_times(command, args.times)
 make_moyenne(args.results)
+dir = os.path.dirname(args.results)
+run_process(f"python3 explore_logs.py --logs {dir} --save_dir plots")
