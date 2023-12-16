@@ -151,7 +151,7 @@ if __name__ == '__main__':
     repeat_times = args.repeat
 
     path = args.path_csv
-    system_message = "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe. Tu dois répondre aux questions posées par l’utilisateur."
+    system_message = "Tu es un data scientist. On te présente des données concernant les étudiants inscrits au semestre d’automne, par faculté selon le sexe."
 
     if os.path.isfile(path) and path.endswith(".csv"):
         # If the path is a CSV file, process it
